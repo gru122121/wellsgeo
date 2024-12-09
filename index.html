@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoFlix - Where Movies Meet Geology</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">GeoFlix</div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="team.html">Meet The Team</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="featured">
+            <div class="featured-content">
+                <div class="featured-text">
+                    <h1>GeoFlix</h1>
+                    <p>Where Geology Meets Cinema</p>
+                    <button class="explore-btn" onclick="scrollToMovies()">
+                        <i class="fas fa-chevron-down"></i> Explore Movies
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="movies-section">
+            <h2 class="row-title">Geological Movies</h2>
+            <div class="movie-grid">
+                <!-- Movies will be loaded here dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <template id="movie-modal-template">
+        <div class="movie-modal">
+            <div class="modal-content">
+                <button class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="modal-banner">
+                    <div class="banner-content">
+                        <h2></h2>
+                        <div class="meta">
+                            <span class="year"></span>
+                            <span class="rating"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <div class="geology-section">
+                        <h3>Geological Features</h3>
+                        <ul class="features-list"></ul>
+                    </div>
+                    <div class="location-section">
+                        <h3>Filming Location</h3>
+                        <p class="location-info"></p>
+                    </div>
+                    <div class="analysis-section">
+                        <h3>Geological Analysis</h3>
+                        <p class="analysis"></p>
+                        <p class="scene-details"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
