@@ -203,8 +203,8 @@
 
 .close-btn {
     position: fixed;
-    top: 16px;
-    left: 16px;
+    top: 70px;
+    left: 50px;
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -313,7 +313,6 @@
 
     .close-btn {
         top: 12px;
-        left: 12px;
         width: 32px;
         height: 32px;
     }
