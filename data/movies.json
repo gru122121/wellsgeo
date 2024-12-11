@@ -159,6 +159,70 @@
                 "analysis": "**Geological Accuracy:**\nThe film showcases the remarkable geology of Petra, accurately depicting its sandstone formations and natural erosion patterns.\n\n**Scientific Elements:**\nThe movie highlights important geological features:\n• Sedimentary rock formation processes\n• Desert weathering patterns\n• Ancient riverbed deposits\n\n**Educational Value:**\nThe film effectively demonstrates:\n• How geology influenced ancient architecture\n• Natural erosion processes in desert environments\n• The relationship between geology and human history",
                 "sceneDetails": "**Key Scenes:**\n• Views of Petra's iconic sandstone cliffs\n• Demonstration of rock-cut architectural techniques\n• Evidence of desert weathering processes\n\n**Technical Details:**\nThe film's use of Petra as a backdrop provides viewers with an understanding of how geological processes created the perfect conditions for ancient rock-cut architecture."
             }
+        },
+        {
+            "id": "impossible",
+            "title": "The Impossible",
+            "year": 2012,
+            "rating": "PG-13",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjA5NTA3NzQ5Nl5BMl5BanBnXkFtZTcwOTYxNjY0OA@@._V1_.jpg",
+            "geology": {
+                "features": ["Tsunamis", "Plate tectonics", "Earthquake mechanics"],
+                "location": {
+                    "place": "Indian Ocean",
+                    "country": "Thailand"
+                },
+                "analysis": "**Geological Accuracy:**\nThe film provides a realistic portrayal of the 2004 Indian Ocean tsunami and its devastating effects.\n\n**Scientific Elements:**\nThe movie demonstrates key geological processes:\n• Submarine earthquake mechanisms\n• Tsunami wave formation and propagation\n• Coastal impact dynamics\n\n**Educational Value:**\nThe film effectively illustrates:\n• The connection between earthquakes and tsunamis\n• The power of geological disasters\n• The importance of understanding natural warning signs",
+                "sceneDetails": "**Key Scenes:**\n• Realistic depiction of tsunami wave behavior\n• Demonstration of water displacement effects\n• Visualization of coastal destruction patterns\n\n**Technical Details:**\nThe film's portrayal of the tsunami provides viewers with an understanding of how submarine earthquakes can trigger devastating ocean waves."
+            }
+        },
+        {
+            "id": "2012",
+            "title": "2012",
+            "year": 2009,
+            "rating": "PG-13",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTY0MjEyODQzMF5BMl5BanBnXkFtZTcwMTczMjQ4Mg@@._V1_.jpg",
+            "geology": {
+                "features": ["Earth's core", "Crustal displacement", "Tectonic activity"],
+                "location": {
+                    "place": "Global",
+                    "country": "Multiple"
+                },
+                "analysis": "**Geological Accuracy:**\nWhile highly dramatized, the film touches on concepts of crustal dynamics and tectonic processes.\n\n**Scientific Elements:**\nThe movie incorporates various geological concepts:\n• Crustal plate movement\n• Volcanic activity\n• Global tectonic events\n\n**Educational Value:**\nDespite its exaggerations, the film raises awareness about:\n• Earth's dynamic systems\n• The interconnectedness of geological processes\n• The potential impact of major geological events",
+                "sceneDetails": "**Key Scenes:**\n• Visualization of crustal displacement\n• Depiction of volcanic eruptions\n• Demonstration of earthquake effects\n\n**Technical Details:**\nWhile scientifically inaccurate in scale and timing, the film illustrates the potential power of Earth's geological processes."
+            }
+        },
+        {
+            "id": "deep-impact",
+            "title": "Deep Impact",
+            "year": 1998,
+            "rating": "PG-13",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTUwMTY1YmMtN2U5NC00YjkzLTg0YWQtZmEwNTEzZjdkNzQ2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+            "geology": {
+                "features": ["Impact craters", "Tsunami formation", "Sedimentary deposits"],
+                "location": {
+                    "place": "Atlantic Ocean",
+                    "country": "Global"
+                },
+                "analysis": "**Geological Accuracy:**\nThe film presents a scientifically grounded depiction of comet impact effects on Earth.\n\n**Scientific Elements:**\nThe movie explores several geological concepts:\n• Impact crater formation\n• Mega-tsunami generation\n• Mass extinction events\n\n**Educational Value:**\nThe film effectively demonstrates:\n• The geological consequences of cosmic impacts\n• The formation of impact structures\n• The relationship between impacts and Earth's history",
+                "sceneDetails": "**Key Scenes:**\n• Visualization of impact crater formation\n• Demonstration of tsunami generation\n• Depiction of atmospheric effects\n\n**Technical Details:**\nThe film's portrayal of impact effects provides insights into how such events have shaped Earth's geological history."
+            }
+        },
+        {
+            "id": "shawshank",
+            "title": "The Shawshank Redemption",
+            "year": 1994,
+            "rating": "R",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+            "geology": {
+                "features": ["Rock types", "Erosion processes", "Tunnel formation"],
+                "location": {
+                    "place": "Shawshank Prison",
+                    "country": "USA"
+                },
+                "analysis": "**Geological Accuracy:**\nWhile not primarily a geological film, it accurately depicts rock weathering and erosion processes.\n\n**Scientific Elements:**\nThe movie demonstrates:\n• Rock composition and strength\n• Weathering processes\n• Human interaction with geological materials\n\n**Educational Value:**\nThe film indirectly illustrates:\n• The persistence of geological processes\n• Rock weathering mechanisms\n• The practical applications of geological knowledge",
+                "sceneDetails": "**Key Scenes:**\n• Depiction of rock weathering\n• Demonstration of material erosion\n• Visualization of tunnel formation through different rock types\n\n**Technical Details:**\nThe film's portrayal of rock excavation provides insight into geological processes and material properties."
+            }
         }
     ]
 }
