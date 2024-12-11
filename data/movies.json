@@ -1,4 +1,35 @@
 {
+    "categories": [
+        {
+            "name": "Natural Hazards",
+            "movies": [
+                "dantes-peak",
+                "volcano",
+                "san-andreas",
+                "impossible",
+                "2012",
+                "deep-impact",
+                "deepwater-horizon"
+            ]
+        },
+        {
+            "name": "Earth Science",
+            "movies": [
+                "the-core",
+                "journey-center-earth",
+                "ice-age-drift",
+                "shawshank"
+            ]
+        },
+        {
+            "name": "Geological Sites",
+            "movies": [
+                "free-solo",
+                "indiana-jones",
+                "jurassic-park"
+            ]
+        }
+    ],
     "movies": [
         {
             "id": "jurassic-park",
