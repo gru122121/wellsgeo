@@ -1,0 +1,68 @@
+{
+    "films": [
+        {
+            "id": "interstellar",
+            "title": "Interstellar",
+            "year": 2014,
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+            "location": "Svínafellsjökull glacier",
+            "description": "Featured Iceland's glacial landscapes as an alien planet"
+        },
+        {
+            "id": "game-of-thrones",
+            "title": "Game of Thrones",
+            "year": 2011,
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg",
+            "location": "Vatnajökull National Park",
+            "description": "Utilized Iceland's volcanic terrain for scenes beyond The Wall"
+        },
+        {
+            "id": "walter-mitty",
+            "title": "The Secret Life of Walter Mitty",
+            "year": 2013,
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_.jpg",
+            "location": "Multiple locations across Iceland",
+            "description": "Showcased Iceland's diverse landscapes throughout the film"
+        },
+        {
+            "id": "batman-begins",
+            "title": "Batman Begins",
+            "year": 2005,
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+            "location": "Vatnajökull glacier",
+            "description": "Used Vatnajökull glacier for training sequences"
+        },
+        {
+            "id": "journey-center-earth",
+            "title": "Journey to the Center of the Earth",
+            "year": 2008,
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTc0MTY3NjMxNV5BMl5BanBnXkFtZTgwMzI2ODk1MDE@._V1_.jpg",
+            "location": "Snæfellsjökull",
+            "description": "Featured Iceland's volcanic landscapes and Snæfellsjökull"
+        },
+        {
+            "id": "eurovision",
+            "title": "Eurovision Song Contest: The Story of Fire Saga",
+            "year": 2020,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIcYRxLySTRMwDDuJPqDkSngytwBMbexKikQ&s",
+            "location": "Húsavík",
+            "description": "Shot across various Icelandic locations including Húsavík"
+        },
+        {
+            "id": "rogue-one",
+            "title": "Rogue One: A Star Wars Story",
+            "year": 2016,
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_.jpg",
+            "location": "Reynisfjara Black Sand Beach",
+            "description": "Used Iceland's black sand beaches for planet Eadu"
+        },
+        {
+            "id": "civil-war",
+            "title": "Captain America: Civil War",
+            "year": 2016,
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_.jpg",
+            "location": "Vatnajökull region",
+            "description": "Filmed scenes in Iceland's rugged terrain"
+        }
+    ]
+} 

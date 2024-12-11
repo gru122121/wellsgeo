@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoFlix - Films in Iceland</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="iceland.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">GeoFlix</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="team.html">Meet The Team</a>
+                <a href="iceland.html" class="active">Iceland Films</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="iceland-header">
+            <div class="featured-content">
+                <h1>Films Shot in Iceland</h1>
+                <p>Exploring Iceland's Dramatic Geological Landscapes in Cinema</p>
+            </div>
+        </section>
+
+        <section class="iceland-grid">
+            <!-- Films will be loaded here dynamically -->
+        </section>
+    </main>
+
+    <script>
+        async function loadIcelandFilms() {
+            try {
+                const response = await fetch('data/iceland.json');
+                const data = await response.json();
+                const grid = document.querySelector('.iceland-grid');
+
+                data.films.forEach(film => {
+                    const filmElement = document.createElement('div');
+                    filmElement.className = 'iceland-film';
+                    filmElement.innerHTML = `
+                        <img src="${film.thumbnail}" alt="${film.title}">
+                        <div class="film-overlay">
+                            <p>${film.description}</p>
+                        </div>
+                    `;
+                    grid.appendChild(filmElement);
+                });
+            } catch (error) {
+                console.error('Error loading Iceland films:', error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadIcelandFilms);
+    </script>
+</body>
+</html> 
