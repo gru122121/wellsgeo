@@ -1,5 +1,7 @@
 #team-header {
     height: 40vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('images/geology-banner.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -8,27 +10,6 @@
     text-align: center;
     margin-bottom: 40px;
 }
-
-.text-member {
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    padding: 20px; /* Add padding to ensure content is spaced from the edges */
-    color: #a3a3a3;
-    font-size: 0.9rem;
-    text-align: center;
-}
-
-.text-member:hover {
-    transform: translateY(-5px);
-}
-
-
-.text-info {
-    padding: 20px; /* Ensure sufficient spacing for text */
-}
-
-
 
 #team-header h1 {
     font-size: 3.5rem;
@@ -40,8 +21,6 @@
     font-size: 1.2rem;
     color: #e5e5e5;
 }
-
-
 
 .team-grid {
     display: grid;
