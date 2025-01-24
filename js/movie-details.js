@@ -26,7 +26,9 @@ async function loadMovieDetails() {
 
         // Add IMDb search functionality to play button
         const playBtn = document.querySelector('.play-btn');
+        const netflixSound = new Audio('/audio/netflix-sound.mp3');
         playBtn.addEventListener('click', () => {
+            netflixSound.play();
             const searchUrl = `https://www.imdb.com/find/?q=${encodeURIComponent(movie.title)}`;
             window.open(searchUrl, '_blank');
         });
