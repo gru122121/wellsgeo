@@ -1,10 +1,25 @@
-import { loadMovies } from './js/movies.js';
+import { loadMoviesByCategory } from './js/movies.js';
 import { initializeModal } from './js/modal.js';
 
+window.showRandomMovie = async function() {
+    try {
+        const response = await fetch('data/movies.json');
+        const data = await response.json();
+        const movies = data.movies;
 
+        if (!Array.isArray(movies) || movies.length === 0) {
+            throw new Error('No movies available');
+        }
+
+        const randomMovie = movies[Math.floor(Math.random() * movies.length)];
+        window.location.href = `movie.html?id=${randomMovie.id}`;
+    } catch (error) {
+        console.error('Error showing random movie:', error);
+    }
+};
 
 document.addEventListener('DOMContentLoaded', () => {
-    loadMovies();
+    loadMoviesByCategory();
     initializeModal();
     
     // Smooth scroll function for the explore button
@@ -27,8 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 }); 
-
-
 
 async function setFeaturedBackground() {
     try {
@@ -78,6 +91,9 @@ async function setFeaturedBackground() {
                 <p>Where Geology Meets Cinema</p>
                 <button class="explore-btn" onclick="scrollToMovies()">
                     <i class="fas fa-chevron-down"></i> Explore Movies
+                </button>
+                <button class="explore-btn" onclick="showRandomMovie()">
+                    <i class="fas fa-random"></i> Random Movie
                 </button>
             </div>
         `;

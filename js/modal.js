@@ -12,17 +12,23 @@ export function initializeModal() {
         
         // Set geological features
         const featuresList = modal.querySelector('.features-list');
-        movie.geology.features.forEach(feature => {
-            const li = document.createElement('li');
-            li.textContent = feature;
-            featuresList.appendChild(li);
-        });
+        if (movie.geology && Array.isArray(movie.geology.features)) {
+            movie.geology.features.forEach(feature => {
+                const li = document.createElement('li');
+                li.textContent = feature;
+                featuresList.appendChild(li);
+            });
+        }
         
         // Set location and analysis
-        modal.querySelector('.location-info').textContent = 
-            `${movie.location.place}, ${movie.location.country}`;
-        modal.querySelector('.analysis').textContent = movie.geology.analysis;
-        modal.querySelector('.scene-details').textContent = movie.geology.sceneDetails;
+        const locationInfo = modal.querySelector('.location-info');
+        if (movie.location && movie.location.place && movie.location.country) {
+            locationInfo.textContent = `${movie.location.place}, ${movie.location.country}`;
+        } else {
+            locationInfo.textContent = 'Location information not available';
+        }
+        modal.querySelector('.analysis').textContent = movie.geology?.analysis || 'Analysis not available';
+        modal.querySelector('.scene-details').textContent = movie.geology?.sceneDetails || 'Scene details not available';
         
         // Close button functionality
         modal.querySelector('.close-btn').addEventListener('click', () => {
@@ -31,4 +37,4 @@ export function initializeModal() {
         
         document.body.appendChild(modal);
     });
-} 
+}

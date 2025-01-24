@@ -37,6 +37,7 @@
             "year": 1993,
             "rating": "PG-13",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg",
+            "trailer": "https://www.youtube.com/embed/QWBKEmWWL38",
             "geology": {
                 "features": ["Amber preservation", "Fossil formation", "Sedimentary rocks"],
                 "location": {
@@ -51,7 +52,8 @@
             "id": "dantes-peak",
             "title": "Dante's Peak",
             "year": 1997,
-            "rating": "PG-13",
+            "rating": "85/100",
+            "trailer": "https://www.youtube.com/embed/O8HNlhVbGzY",
             "thumbnail": "https://images.moviesanywhere.com/043300701040d5a73fc8d7bb2e926144/712f6580-007e-498f-97ce-3d8bd594273c.jpg",
             "geology": {
                 "features": ["Stratovolcano", "Pyroclastic flows", "Volcanic gases"],
@@ -67,7 +69,8 @@
             "id": "the-core",
             "title": "The Core",
             "year": 2003,
-            "rating": "PG-13",
+            "rating": "75/100",
+            "trailer": "https://www.youtube.com/embed/LVkocdkcmAc",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonUpkjenQWI-MInC_td6OaWYP1ps8CtlR6mgvdsHFpW96kXlTd07ZI7qxTa_ZfkgvhtvQNQ",
             "geology": {
                 "features": ["Earth's core", "Geomagnetic field", "Mantle composition"],
@@ -83,7 +86,8 @@
             "id": "deepwater-horizon",
             "title": "Deepwater Horizon",
             "year": 2016,
-            "rating": "PG-13",
+            "rating": "83/100",
+            "trailer": "https://www.youtube.com/embed/8yASbM8M2vg",
             "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6DWa_vaasgjRYBE0xbh39DZPTvZNhEpSRebI_tDqcKUfc5o9-WghjKx6dBqvIYIAB1dqliw",
             "geology": {
                 "features": ["Oil formation", "Pressure systems", "Sedimentary basins"],
@@ -99,7 +103,8 @@
             "id": "ice-age-drift",
             "title": "Ice Age: Continental Drift",
             "year": 2012,
-            "rating": "PG",
+            "rating": "83/100",
+            "trailer": "https://www.youtube.com/embed/KgMtU_BM",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTM3NDM5MzY5Ml5BMl5BanBnXkFtZTcwNjExMDUwOA@@._V1_.jpg",
             "geology": {
                 "features": ["Continental drift", "Plate tectonics", "Pangaea breakup"],
@@ -115,7 +120,8 @@
             "id": "volcano",
             "title": "Volcano",
             "year": 1997,
-            "rating": "PG-13",
+            "rating": "80/100",
+            "trailer": "https://www.youtube.com/embed/67oe0_s9EIw?si=lfeZ6i4n3shI-3IB",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsqQ9unJjojvc4XM5ObgthNMoX58gbn_dmFW0Thp4EESlvn53eXmnDE3PGMBFPZV0UJXJq",
             "geology": {
                 "features": ["Urban volcanism", "Lava flows", "Magma chambers"],
@@ -131,7 +137,8 @@
             "id": "san-andreas",
             "title": "San Andreas",
             "year": 2015,
-            "rating": "PG-13",
+            "rating": "78/100",
+            "trailer": "https://www.youtube.com/embed/yftHosO0eUo",
             "thumbnail": "https://images8.alphacoders.com/606/606830.jpg",
             "geology": {
                 "features": ["Fault lines", "Seismic activity", "Earthquake mechanics"],
@@ -147,7 +154,8 @@
             "id": "journey-center-earth",
             "title": "Journey to the Center of the Earth",
             "year": 2008,
-            "rating": "PG",
+            "rating": "77/100",
+            "trailer": "https://www.youtube.com/embed/iJkspWwwZLM",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTc0MTY3NjMxNV5BMl5BanBnXkFtZTgwMzI2ODk1MDE@._V1_.jpg",
             "geology": {
                 "features": ["Earth's layers", "Cave systems", "Mineral formations"],
@@ -164,6 +172,7 @@
             "title": "Free Solo",
             "year": 2018,
             "rating": "PG-13",
+            "trailer": "https://www.youtube.com/embed/89H0BHXjkXI",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZsybrQt_6HjOAYxblkdm6E5dJO7K8xHSIq70r3X4CP5HQAteuGhPT8ewzklCO0OWTeBNTA",
             "geology": {
                 "features": ["Granite formation", "Rock weathering", "Glacial erosion"],
@@ -180,6 +189,7 @@
             "title": "Indiana Jones and the Last Crusade",
             "year": 1989,
             "rating": "PG-13",
+            "trailer": "https://www.youtube.com/embed/DKg36LBVgfg",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
             "geology": {
                 "features": ["Sandstone formation", "Rock-cut architecture", "Desert geology"],
@@ -212,6 +222,7 @@
             "title": "2012",
             "year": 2009,
             "rating": "PG-13",
+            "trailer": "https://www.youtube.com/embed/sFXGrTng0gQ",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTY0MjEyODQzMF5BMl5BanBnXkFtZTcwMTczMjQ4Mg@@._V1_.jpg",
             "geology": {
                 "features": ["Earth's core", "Crustal displacement", "Tectonic activity"],
@@ -228,6 +239,7 @@
             "title": "Deep Impact",
             "year": 1998,
             "rating": "PG-13",
+            "trailer": "https://www.youtube.com/embed/9cqDWRIv7Mg",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTUwMTY1YmMtN2U5NC00YjkzLTg0YWQtZmEwNTEzZjdkNzQ2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
             "geology": {
                 "features": ["Impact craters", "Tsunami formation", "Sedimentary deposits"],
@@ -244,6 +256,7 @@
             "title": "The Shawshank Redemption",
             "year": 1994,
             "rating": "R",
+            "trailer": "https://www.youtube.com/embed/PLl99DlL6b4",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
             "geology": {
                 "features": ["Rock types", "Erosion processes", "Tunnel formation"],

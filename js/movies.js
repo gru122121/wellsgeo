@@ -1,4 +1,4 @@
-export async function loadMovies() {
+export async function loadMoviesByCategory() {
     try {
         const response = await fetch('data/movies.json');
         const data = await response.json();
@@ -37,4 +37,40 @@ function createMoviePoster(movie) {
             </div>
         </div>
     `;
-} 
+}
+
+async function loadIcelandFilms() {
+    try {
+        const response = await fetch('data/iceland.json');
+        const data = await response.json();
+        const grid = document.querySelector('#iceland-films .movie-grid');
+
+        data.films.forEach(film => {
+            const movieCard = document.createElement('div');
+            movieCard.className = 'poster';
+            movieCard.innerHTML = `
+                <img src="${film.thumbnail}" alt="${film.title}">
+                <div class="poster-overlay">
+                    <div class="poster-content">
+                        <div class="poster-title">${film.title}</div>
+                        <div class="poster-meta">
+                            <span class="year">${film.year}</span>
+                            ${film.rating ? `<span class="rating">${film.rating}</span>` : ''}
+                        </div>
+                        ${film.description ? `<div class="poster-description">${film.description}</div>` : ''}
+                    </div>
+                </div>
+            `;
+
+            grid.appendChild(movieCard);
+        });
+    } catch (error) {
+        console.error('Error loading Iceland films:', error);
+    }
+}
+
+// Call loadIcelandFilms when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    loadMoviesByCategory();
+    loadIcelandFilms();
+});

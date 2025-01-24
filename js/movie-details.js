@@ -24,6 +24,33 @@ async function loadMovieDetails() {
         document.querySelector('.year').textContent = movie.year;
         document.querySelector('.rating').textContent = movie.rating;
 
+        // Add IMDb search functionality to play button
+        const playBtn = document.querySelector('.play-btn');
+        playBtn.addEventListener('click', () => {
+            const searchUrl = `https://www.imdb.com/find/?q=${encodeURIComponent(movie.title)}`;
+            window.open(searchUrl, '_blank');
+        });
+
+        // Setup trailer functionality
+        const trailerBtn = document.querySelector('.trailer-btn');
+        const trailerModal = document.querySelector('.trailer-modal');
+        const trailerFrame = document.querySelector('#trailerFrame');
+        const closeModalBtn = document.querySelector('.close-modal-btn');
+
+        if (movie.trailer) {
+            trailerBtn.addEventListener('click', () => {
+                trailerFrame.src = movie.trailer;
+                trailerModal.classList.add('active');
+            });
+
+            closeModalBtn.addEventListener('click', () => {
+                trailerFrame.src = '';
+                trailerModal.classList.remove('active');
+            });
+        } else {
+            trailerBtn.style.display = 'none';
+        }
+
         // Set geological features
         const featuresList = document.querySelector('.features-list');
         featuresList.innerHTML = movie.geology.features
@@ -61,4 +88,4 @@ async function loadMovieDetails() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', loadMovieDetails); 
+document.addEventListener('DOMContentLoaded', loadMovieDetails);
