@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #181414;
+    background: #000000;
     color: white;
 }
 
@@ -64,11 +66,20 @@ nav {
     font-weight: 500;
 }
 
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
 /* Hero section */
 #featured {
     position: relative;
     height: 100vh;
     overflow: hidden;
+}
+
+.featured-text h1 {
+    font-family: 'BebasNeue', sans-serif;
 }
 
 .background-stripe {
@@ -90,7 +101,7 @@ nav {
         to bottom,
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 70%,
-        #181414 100%
+        #000000 100%
     );
 }
 
@@ -102,12 +113,13 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px;
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
 }
 
 .featured-text h1 {
-    font-size: 4rem;
+    font-size: 8rem;
     margin-bottom: 20px;
 }
 
@@ -124,12 +136,13 @@ nav {
     border-radius: 4px;
     font-size: 1.2rem;
     cursor: pointer;
+    margin: 5px;
 }
 
 /* Movie Grid */
 .movies-section {
     padding: 70px 4% 20px;
-    background: #181414;
+    background: #000000;
 }
 
 .row-title {
@@ -137,6 +150,7 @@ nav {
     color: #e5e5e5;
     margin-bottom: 20px;
     font-weight: 500;
+    padding-left: 15px;
 }
 
 .movie-grid {
@@ -226,7 +240,7 @@ nav {
 /* Responsive */
 @media (max-width: 768px) {
     .featured-text h1 {
-        font-size: 2rem;
+        font-size: 5rem;
     }
     
     .featured-text p {
