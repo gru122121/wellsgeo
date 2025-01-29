@@ -1,0 +1,102 @@
+{
+    "movies": [
+        {
+            "id": "jurassic-park",
+            "title": "Jurassic Park",
+            "overall": "3/5",
+            "realism": "3/5",
+            "enjoyability": "3/5"
+        },
+        {
+            "id": "dantes-peak",
+            "title": "Dante's Peak",
+            "overall": "3/5",
+            "realism": "5/5",
+            "enjoyability": "5/5"
+        },
+        {
+            "id": "the-core",
+            "title": "The Core",
+            "overall": "3/5",
+            "realism": "3/5",
+            "enjoyability": "3/5"
+        },
+        {
+            "id": "deepwater-horizon",
+            "title": "Deepwater Horizon",
+            "overall": "5/5",
+            "realism": "5/5",
+            "enjoyability": "5/5"
+        },
+        {
+            "id": "shawshank",
+            "title": "The Shawshank Redemption",
+            "overall": "5/5",
+            "realism": "5/5",
+            "enjoyability": "5/5"
+        },
+        {
+            "id": "deep-impact",
+            "title": "Deep Impact",
+            "overall": "4/5",
+            "realism": "4/5",
+            "enjoyability": "4/5"
+        },
+        {
+            "id": "2012",
+            "title": "2012",
+            "overall": "3/5",
+            "realism": "2/5",
+            "enjoyability": "4/5"
+        },
+        {
+            "id": "impossible",
+            "title": "The Impossible",
+            "overall": "5/5",
+            "realism": "5/5",
+            "enjoyability": "5/5"
+        },
+        {
+            "id": "indiana-jones",
+            "title": "Indiana Jones and the Last Crusade",
+            "overall": "5/5",
+            "realism": "2/5",
+            "enjoyability": "5/5"
+        },
+        {
+            "id": "free-solo",
+            "title": "Free Solo",
+            "overall": "5/5",
+            "realism": "5/5",
+            "enjoyability": "5/5"
+        },
+        {
+            "id": "journey-center-earth",
+            "title": "Journey to the Center of the Earth",
+            "overall": "3/5",
+            "realism": "2/5",
+            "enjoyability": "4/5"
+        },
+        {
+            "id": "san-andreas",
+            "title": "San Andreas",
+            "overall": "3/5",
+            "realism": "2/5",
+            "enjoyability": "4/5"
+        },
+        {
+            "id": "volcano",
+            "title": "Volcano",
+            "overall": "3/5",
+            "realism": "2/5",
+            "enjoyability": "4/5"
+        },
+        {
+            "id": "ice-age-drift",
+            "title": "Ice Age: Continental Drift",
+            "overall": "3/5",
+            "realism": "1/5",
+            "enjoyability": "4/5"
+        }
+    ]
+}

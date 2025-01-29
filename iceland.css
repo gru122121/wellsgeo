@@ -78,10 +78,21 @@
     display: flex;
     align-items: flex-end;
     height: 100%;
+    pointer-events: none;
 }
 
-.iceland-film:hover .film-overlay {
-    opacity: 1;
+.iceland-film:hover .film-overlay,
+@media (hover: none) and (pointer: coarse) {
+    .iceland-film:active .film-overlay,
+    .iceland-film:focus .film-overlay {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .film-overlay {
+        opacity: 0;
+        pointer-events: auto;
+    }
 }
 
 .film-overlay p {
@@ -105,4 +116,4 @@
         gap: 15px;
         padding: 15px;
     }
-} 
+}

@@ -36,6 +36,8 @@
             "title": "Jurassic Park",
             "year": 1993,
             "rating": "PG-13",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg",
             "trailer": "https://www.youtube.com/embed/QWBKEmWWL38",
             "geology": {
@@ -53,6 +55,8 @@
             "title": "Dante's Peak",
             "year": 1997,
             "rating": "85/100",
+            "enjoyability": "2/5",
+            "realism" : "1.5/5",
             "trailer": "https://www.youtube.com/embed/O8HNlhVbGzY",
             "thumbnail": "https://images.moviesanywhere.com/043300701040d5a73fc8d7bb2e926144/712f6580-007e-498f-97ce-3d8bd594273c.jpg",
             "geology": {
@@ -70,6 +74,8 @@
             "title": "The Core",
             "year": 2003,
             "rating": "75/100",
+            "enjoyability": "3/5",
+            "realism" : "2/5",
             "trailer": "https://www.youtube.com/embed/LVkocdkcmAc",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonUpkjenQWI-MInC_td6OaWYP1ps8CtlR6mgvdsHFpW96kXlTd07ZI7qxTa_ZfkgvhtvQNQ",
             "geology": {
@@ -78,7 +84,7 @@
                     "place": "Earth's Core",
                     "country": "Global"
                 },
-                "analysis": "**Geological Accuracy:**\nWhile highly fictionalized, the film introduces fundamental concepts about Earth's internal structure and geophysical processes.\n\n**Scientific Elements:**\nThe movie touches on several real geological concepts:\n• Earth's magnetic field generation\n• Core composition and properties\n• Mantle dynamics and composition\n\n**Educational Value:**\nDespite its scientific inaccuracies, the film sparks interest in:\n• The importance of Earth's magnetic field\n• How scientists study Earth's interior\n• The relationship between core processes and surface phenomena",
+                "analysis": "In the film, The Core (2003), the film presents a fictional scenario where the Earth's core stopped rotating, causing catastrophic events such as extreme weather and electromagnetic disturbances. To help revive this, a team of high-end scientists embark on a dangerous mission to drill down into the Earth's core and restart the rotation. While the film is highly speculative and takes significant liberties with geology and physics, it touches on real geological concepts such as the Earth's internal layers and the importance of the core's movement. \n\nThe Earth is made up of several layers: the crust, mantle, outer core, and inner core. The outer core is made up of molten metals, mainly iron and nickel, and is responsible for generating the Earth's magnetic field through its convection currents. The inner core is solid, primarily composed of iron and nickel, and is subject to immense pressure and heat. In the film, the idea that the core stops rotating is a fantastical premise that deviates from reality, as the movement of the Earth's core is driven by the planet's natural processes and is not something that could be easily interrupted. Geologically, the inner core's rotation is linked to the Earth's overall energy dynamics, including its magnetic field, but this is far from the dire consequences portrayed in the film.",
                 "sceneDetails": "**Key Scenes:**\n• Visualization of Earth's different layers\n• Demonstration of magnetic field effects\n• Depiction of extreme pressure and temperature conditions\n\n**Technical Details:**\nWhile the journey itself is impossible, the film's representation of Earth's internal structure provides a starting point for discussing actual geological processes and research methods."
             }
         },
@@ -87,6 +93,8 @@
             "title": "Deepwater Horizon",
             "year": 2016,
             "rating": "83/100",
+            "enjoyability": "4/5",
+            "realism" : "5/5",
             "trailer": "https://www.youtube.com/embed/8yASbM8M2vg",
             "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6DWa_vaasgjRYBE0xbh39DZPTvZNhEpSRebI_tDqcKUfc5o9-WghjKx6dBqvIYIAB1dqliw",
             "geology": {
@@ -95,7 +103,7 @@
                     "place": "Gulf of Mexico",
                     "country": "USA"
                 },
-                "analysis": "**Geological Accuracy:**\nThe film provides a highly accurate portrayal of deep-sea oil extraction and the associated geological challenges.\n\n**Scientific Elements:**\nThe movie effectively demonstrates:\n• Formation of oil deposits in sedimentary basins\n• Complex pressure systems in deep-water environments\n• Geological risks in petroleum extraction\n\n**Educational Value:**\nThe film offers valuable insights into:\n• Modern drilling technology and geology\n• Pressure management in deep-sea wells\n• The interaction between geology and engineering",
+                "analysis": "Deepwater Horizon (2016) is a dramatization of the 2010 BP oil spill, focusing on the catastrophic explosion that occurred on the Deepwater Horizon drilling rig in the Gulf of Mexico. The film shows the dangerous and unpredictable nature of drilling into deep-sea oil reserves, touching on real geological processes associated with deep-sea drilling.\n\nThe film’s geological element is the process of drilling into deep-sea oil reservoirs (porous, permeable rocks) beneath the ocean floor. Oil is normally taken from subterranean rock formations, which can be found in sedimentary layers deep beneath the Earth’s crust. These formations often contain pockets of oil and gas, which are pressurized and trapped by layers of impermeable rock. In Deepwater Horizon, a critical moment comes when the drilling rig hits an unexpected pressure build-up, triggering the blowout. In reality, such blowouts occur when there is a failure in the well’s pressure control systems, often due to complications like miscalculations in the rock formation’s stability or failure to properly seal the well.\n\nThe geology behind the disaster involves understanding the pressure and temperature conditions at extreme depths in the Gulf of Mexico. The geology of the region, with its deep-sea sedimentary layers, presents significant risks if the integrity of the drilling process is compromised. The film’s focus on the risks of offshore drilling underscores the challenges of dealing with the unknowns beneath the Earth’s surface, where misjudging geological conditions can lead to catastrophic consequences, as depicted by the explosion and the resulting oil spill.",
                 "sceneDetails": "**Key Scenes:**\n• Detailed depiction of pressure testing procedures\n• Visualization of subsea well structures\n• Demonstration of blowout prevention systems\n\n**Technical Details:**\nThe film accurately portrays the technical challenges of drilling through various geological formations and managing extreme pressures in deep-water environments."
             }
         },
@@ -104,6 +112,8 @@
             "title": "Ice Age: Continental Drift",
             "year": 2012,
             "rating": "83/100",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "trailer": "https://www.youtube.com/embed/KgMtU_BM",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTM3NDM5MzY5Ml5BMl5BanBnXkFtZTcwNjExMDUwOA@@._V1_.jpg",
             "geology": {
@@ -121,6 +131,8 @@
             "title": "Volcano",
             "year": 1997,
             "rating": "80/100",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "trailer": "https://www.youtube.com/embed/67oe0_s9EIw?si=lfeZ6i4n3shI-3IB",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsqQ9unJjojvc4XM5ObgthNMoX58gbn_dmFW0Thp4EESlvn53eXmnDE3PGMBFPZV0UJXJq",
             "geology": {
@@ -138,6 +150,8 @@
             "title": "San Andreas",
             "year": 2015,
             "rating": "78/100",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "trailer": "https://www.youtube.com/embed/yftHosO0eUo",
             "thumbnail": "https://images8.alphacoders.com/606/606830.jpg",
             "geology": {
@@ -154,7 +168,9 @@
             "id": "journey-center-earth",
             "title": "Journey to the Center of the Earth",
             "year": 2008,
-            "rating": "77/100",
+            "rating": "3/5 ORE",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "trailer": "https://www.youtube.com/embed/iJkspWwwZLM",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTc0MTY3NjMxNV5BMl5BanBnXkFtZTgwMzI2ODk1MDE@._V1_.jpg",
             "geology": {
@@ -172,6 +188,8 @@
             "title": "Free Solo",
             "year": 2018,
             "rating": "PG-13",
+            "enjoyability": "3",
+            "realism" : "3",
             "trailer": "https://www.youtube.com/embed/89H0BHXjkXI",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZsybrQt_6HjOAYxblkdm6E5dJO7K8xHSIq70r3X4CP5HQAteuGhPT8ewzklCO0OWTeBNTA",
             "geology": {
@@ -189,6 +207,8 @@
             "title": "Indiana Jones and the Last Crusade",
             "year": 1989,
             "rating": "PG-13",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "trailer": "https://www.youtube.com/embed/DKg36LBVgfg",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
             "geology": {
@@ -206,6 +226,8 @@
             "title": "The Impossible",
             "year": 2012,
             "rating": "PG-13",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjA5NTA3NzQ5Nl5BMl5BanBnXkFtZTcwOTYxNjY0OA@@._V1_.jpg",
             "geology": {
                 "features": ["Tsunamis", "Plate tectonics", "Earthquake mechanics"],
@@ -222,6 +244,8 @@
             "title": "2012",
             "year": 2009,
             "rating": "PG-13",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "trailer": "https://www.youtube.com/embed/sFXGrTng0gQ",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTY0MjEyODQzMF5BMl5BanBnXkFtZTcwMTczMjQ4Mg@@._V1_.jpg",
             "geology": {
@@ -239,6 +263,8 @@
             "title": "Deep Impact",
             "year": 1998,
             "rating": "PG-13",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "trailer": "https://www.youtube.com/embed/9cqDWRIv7Mg",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTUwMTY1YmMtN2U5NC00YjkzLTg0YWQtZmEwNTEzZjdkNzQ2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
             "geology": {
@@ -256,6 +282,8 @@
             "title": "The Shawshank Redemption",
             "year": 1994,
             "rating": "R",
+            "enjoyability": "3/5",
+            "realism" : "3/5",
             "trailer": "https://www.youtube.com/embed/PLl99DlL6b4",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
             "geology": {

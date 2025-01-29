@@ -3,10 +3,17 @@ async function loadMovieDetails() {
         const urlParams = new URLSearchParams(window.location.search);
         const movieId = urlParams.get('id');
         
-        const response = await fetch('data/movies.json');
-        const data = await response.json();
+        const [moviesResponse, ratingsResponse] = await Promise.all([
+            fetch('data/movies.json'),
+            fetch('data/oreratings.json')
+        ]);
+        const [moviesData, ratingsData] = await Promise.all([
+            moviesResponse.json(),
+            ratingsResponse.json()
+        ]);
         
-        const movie = data.movies.find(m => m.id === movieId);
+        const movie = moviesData.movies.find(m => m.id === movieId);
+        const ratings = ratingsData.movies.find(r => r.id === movieId);
         if (!movie) {
             window.location.href = 'index.html';
             return;
@@ -33,6 +40,31 @@ async function loadMovieDetails() {
             window.open(searchUrl, '_blank');
         });
 
+        // Set ORE ratings
+        const overallRating = ratings ? (parseFloat(ratings.realism) + parseFloat(ratings.enjoyability)) / 2 : 0;
+        
+        function createStarRating(rating) {
+            const fullStars = Math.floor(rating);
+            let starsHtml = '<span style="margin-left: 10px;">';
+            
+            // Add full stars
+            for (let i = 0; i < fullStars; i++) {
+                starsHtml += '<i class="fas fa-star star"></i>';
+            }
+            
+            // Add empty stars
+            for (let i = fullStars; i < 5; i++) {
+                starsHtml += '<i class="far fa-star star empty"></i>';
+            }
+            
+            starsHtml += '</span>';
+            return starsHtml;
+        }
+        
+        document.querySelector('.overall-rating').innerHTML = createStarRating(overallRating);
+        document.querySelector('.realism-rating').innerHTML = createStarRating(parseFloat(movie.realism));
+        document.querySelector('.enjoyment-rating').innerHTML = createStarRating(parseFloat(movie.enjoyability));
+
         // Setup trailer functionality
         const trailerBtn = document.querySelector('.trailer-btn');
         const trailerModal = document.querySelector('.trailer-modal');
@@ -42,12 +74,21 @@ async function loadMovieDetails() {
         if (movie.trailer) {
             trailerBtn.addEventListener('click', () => {
                 trailerFrame.src = movie.trailer;
-                trailerModal.classList.add('active');
+                trailerModal.style.display = 'flex';
+                setTimeout(() => trailerModal.classList.add('active'), 10);
             });
 
             closeModalBtn.addEventListener('click', () => {
                 trailerFrame.src = '';
                 trailerModal.classList.remove('active');
+                setTimeout(() => trailerModal.style.display = 'none', 300);
+            });
+
+            // Close modal when clicking outside the video
+            trailerModal.addEventListener('click', (e) => {
+                if (e.target === trailerModal) {
+                    closeModalBtn.click();
+                }
             });
         } else {
             trailerBtn.style.display = 'none';

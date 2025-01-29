@@ -3,6 +3,7 @@ export function initializeModal() {
         const movie = e.detail;
         const template = document.getElementById('movie-modal-template');
         const modal = template.content.cloneNode(true).children[0];
+        modal.style.zIndex = '999999';
         
         // Set modal content
         modal.querySelector('.modal-banner').style.backgroundImage = `url(${movie.banner})`;
