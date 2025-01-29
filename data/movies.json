@@ -9,7 +9,9 @@
                 "impossible",
                 "2012",
                 "deep-impact",
-                "deepwater-horizon"
+                "deepwater-horizon",
+                "godzilla-kong",
+                "austin-powers"
             ]
         },
         {
@@ -32,12 +34,31 @@
     ],
     "movies": [
         {
+            "id": "austin-powers",
+            "title": "Austin Powers: International Man of Mystery",
+            "year": 1997,
+            "rating": "4/5",
+            "enjoyability": "5/5",
+            "realism": "2/5",
+            "trailer": "https://www.youtube.com/embed/5vsANcS4Ml8",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTRhZTY0MDItY2I1Yi00MGE3LTk1ZDEtMjA0ZGZhNDQyNGU0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+            "geology": {
+                "features": ["Underground drilling", "Earth's core", "Volcanic activity"],
+                "location": {
+                    "place": "Nevada Nuclear Test Site",
+                    "country": "USA"
+                },
+                "analysis": "Throughout the films, Dr Evil’s plans for world domination are elaborate and absurd schemes. In this film, he tries to extort the government’s money by threatening to drill into the Earth’s core and cause geological damage on a catastrophic level. But is this really achievable?\n\nThe Earth’s core lies approximately 6,370km below the surface with solid layers of rock, mantle and an outer core surrounding it. The deepest borehole ever drilled is 12km in depth (Kola Superdeep Borehole, Russia), which set Dr Evil up for a bit of a tricky start. But let’s put some more factors in. If he were to drill deeper than 12km, then the temperatures and pressures would quickly increase. The Earth’s core can exceed 5,000 °C, which is enough to melt Dr Evil’s homemade contraption, and the pressure would crush it before it got anywhere near the core. And had he thought about the location of the drilling?\n\nIf he drilled near a volcanic hotspot or along a tectonic plate boundary, then he could’ve possibly disrupted magma chambers and increased the likelihood of an eruption. This takes precise planning and targeting, which would’ve probably exceeded the geological knowledge of Dr Evil. If he had a larger drill (one on the scale of fracking or mining), then disturbing a fault line and triggering an earthquake may have been slightly achievable. However, his operation only had a small drill that would’ve been highly unlikely to cause any noticeable seismic events.\n\nTo achieve his goal, a significant amount of energy would’ve been needed. His single villainous empire wouldn’t have been able to generate the amount needed. Even if he had a nuclear-powered drill, then drilling to the core still wouldn’t be possible.\n\nDr Evil is made as an entirely comedic character with no aspect of geology or the Earth, as proven when he describes the magma as being “liquid hot.” However, this movie was made to not be taken seriously and to exaggerate all the elaborate plans from classic spy films. Plus, it’s hard to focus on the geology when it’s comedic sketch after comedic sketch!",
+                "sceneDetails": "**Key Scenes:**\n• Underground lair construction\n• Nuclear warhead placement in volcanic structures\n• Desert facility operations\n\n**Technical Details:**\nThough exaggerated for comedy, the film's underground facilities reference real geological considerations in bunker construction and nuclear testing sites."
+            }
+        },
+        {
             "id": "jurassic-park",
             "title": "Jurassic Park",
             "year": 1993,
             "rating": "PG-13",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "3/5",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg",
             "trailer": "https://www.youtube.com/embed/QWBKEmWWL38",
             "geology": {
@@ -56,7 +77,7 @@
             "year": 1997,
             "rating": "85/100",
             "enjoyability": "2/5",
-            "realism" : "1.5/5",
+            "realism": "1.5/5",
             "trailer": "https://www.youtube.com/embed/O8HNlhVbGzY",
             "thumbnail": "https://images.moviesanywhere.com/043300701040d5a73fc8d7bb2e926144/712f6580-007e-498f-97ce-3d8bd594273c.jpg",
             "geology": {
@@ -75,7 +96,7 @@
             "year": 2003,
             "rating": "75/100",
             "enjoyability": "3/5",
-            "realism" : "2/5",
+            "realism": "2/5",
             "trailer": "https://www.youtube.com/embed/LVkocdkcmAc",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonUpkjenQWI-MInC_td6OaWYP1ps8CtlR6mgvdsHFpW96kXlTd07ZI7qxTa_ZfkgvhtvQNQ",
             "geology": {
@@ -94,7 +115,7 @@
             "year": 2016,
             "rating": "83/100",
             "enjoyability": "4/5",
-            "realism" : "5/5",
+            "realism": "5/5",
             "trailer": "https://www.youtube.com/embed/8yASbM8M2vg",
             "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6DWa_vaasgjRYBE0xbh39DZPTvZNhEpSRebI_tDqcKUfc5o9-WghjKx6dBqvIYIAB1dqliw",
             "geology": {
@@ -111,9 +132,9 @@
             "id": "ice-age-drift",
             "title": "Ice Age: Continental Drift",
             "year": 2012,
-            "rating": "83/100",
-            "enjoyability": "3/5",
-            "realism" : "3/5",
+            "rating": "4/5",
+            "enjoyability": "5/5",
+            "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/KgMtU_BM",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTM3NDM5MzY5Ml5BMl5BanBnXkFtZTcwNjExMDUwOA@@._V1_.jpg",
             "geology": {
@@ -122,7 +143,7 @@
                     "place": "Prehistoric Earth",
                     "country": "Global"
                 },
-                "analysis": "**Geological Accuracy:**\nWhile simplified for animation, the film effectively introduces the fundamental concepts of plate tectonics and continental drift.\n\n**Scientific Elements:**\nThe movie presents key geological processes:\n• Continental breakup mechanisms\n• Plate tectonic movements\n• Formation of new ocean basins\n\n**Educational Value:**\nDespite compressed timelines, the film succeeds in:\n• Making complex geology accessible to young audiences\n• Demonstrating the dynamic nature of Earth's crust\n• Showing how geological changes affect ecosystems",
+                "analysis": "If you want a film for all the family on a Saturday night, then Ice Age: Continental Drift will be suitable for everyone, unless that is, of course, one of you is a geologist. With the aspects of plate tectonics being taken into account, the portrayal of these processes is highly inaccurate and presented in an entirely comedic and dramatic way.\n\nThe concept of Continental Drift and Plate Tectonics is shown in a dumbed but accurate, child-friendly way with the continents of the Earth moving. The lithosphere of the Earth is broken into plates which overly and float on the semi-fluid asthenosphere, allowing for the continents to move. With the period of this film being set in the Pleistocene, the continents were in positions very close to how they are in the present day.\n\nWith the concept of continental drift being accurate, the speed it happened at in the movie was not. In the movie, Scrat causes Pangaea to break up by attempting to bury an acorn. This leads to rapid drift and the continents to break up instantaneously when in reality, continental drift happens at a rate of a few centimetres per year, far too slow for a human lifetime to notice. With Pangaea being broken apart from the Jurassic period 200 Ma, by the time of the Pleistocene the continents would’ve already been broken up and Pangaea would’ve been no more. The speed and distribution of the earthquakes and volcanoes in the film show them as sudden cataclysmic events as a direct result of the continents moving, and while continents breaking up do cause these events, the scale and timing shown in the film are highly inaccurate.\n\nThere is a fictional element of Scrat causing all the geological events in an attempt to bury his acorn. In the film, he splits the continents by running on the Earth’s inner core, creates mountain ranges, and even creates the faces on Mount Rushmore. These events are all highly fictionalised and defy every known law of science ever to have been. These processes are driven by tectonic movement, erosion, and volcanic activity, which take millions of years – not a few seconds by an acorn-loving squirrel! It also shows Scrat forming the Atlantic Ocean, but this formed over 100 million years ago during the breakup of Pangaea. By the time of the Ice Age, this ocean had already fully formed.\n\nThe megafauna, of which some may have coexisted together, travel on massive landmasses which break away and travel over the ocean. Whilst smaller animals may have been able to have been transported across bodies of water on vegetation rafts, the larger animals being transported on moving continents is impossible.\n\nThis movie’s portrayal of continental drift and Pangaea being broken up is entirely fantasised and made for comedic viewing. So maybe, for an evening, the geological brain can be turned off and the story of Scrat and his acorn may come to life a bit more.",
                 "sceneDetails": "**Key Scenes:**\n• Visualization of Pangaea's breakup\n• Demonstration of continental drift mechanics\n• Depiction of geological formations in motion\n\n**Technical Details:**\nThe animated sequences, while dramatized, provide an engaging introduction to actual geological processes that shaped our continents."
             }
         },
@@ -130,9 +151,9 @@
             "id": "volcano",
             "title": "Volcano",
             "year": 1997,
-            "rating": "80/100",
+            "rating": "2/5",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "1/5",
             "trailer": "https://www.youtube.com/embed/67oe0_s9EIw?si=lfeZ6i4n3shI-3IB",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsqQ9unJjojvc4XM5ObgthNMoX58gbn_dmFW0Thp4EESlvn53eXmnDE3PGMBFPZV0UJXJq",
             "geology": {
@@ -141,7 +162,7 @@
                     "place": "Los Angeles",
                     "country": "USA"
                 },
-                "analysis": "**Geological Accuracy:**\nWhile geologically improbable in an urban setting, the film accurately portrays various volcanic phenomena and hazards.\n\n**Scientific Elements:**\nThe movie demonstrates key volcanic processes:\n• Magma chamber formation and dynamics\n• Lava flow behavior and types\n• Volcanic gas emissions and hazards\n\n**Educational Value:**\nDespite its unlikely setting, the film effectively shows:\n• The destructive power of volcanic activity\n• Emergency response to geological disasters\n• The importance of geological monitoring in urban areas",
+                "analysis": "Thrilling. Dramatic. Volcanoes in Los Angeles? While this film may have you on the edge of your seat worrying if this could happen, take a step back and breathe. This film, whilst capturing the high intensity of a natural disaster, is highly fictionalised, with many aspects being very unplausible.\n\nLos Angeles is located on a plate boundary; however, it is not the right plate boundary for volcanoes. This megacity lies on the San Andreas Fault, a dextrally moving transform fault which doesn’t cause the right temperature, pressure and/or composition for magma to be produced. For a new volcano to form, specific geological features are required, such as a hot spot or a magma chamber connected to a tectonic boundary. The geographical location and geology of Los Angeles make this scenario unachievable. It is seen that magma erupts from the La Brea Tar Pits. This suggests that geothermal activity may be the cause of a volcanic eruption. This isn’t the case, however. The tar pits may have occurred naturally, but their formation was due to petroleum rising and there being no trap rock.\n\nBam! The volcanoes happen. Who could’ve predicted that? Well, volcanoes often give signs of an eruption with gas emissions, ground deformation and an increase in seismic activity, all of which can be monitored. The film didn’t quite pick up on this, with the already inaccurate volcanic eruptions happening with no prior warning. With the speed at which the eruptions happened, it comes as no surprise that the speed and destructiveness of the lava flows were too exaggerated. The flows are seen moving rapidly down the streets, engulfing cars and anything else that crosses its path. The lava in the film behaves more like something made on a £10 budget. It has an inconsistent flow rate and appearance when compared to basaltic lava, which tends to have a higher viscosity. It also has a mind of its own! It travels in unlikely directions, ignoring all of the natural topography. But can this be solved by concrete? Well, the film seems to think so with its use of concrete barriers and water to divert the flow.\n\nWith the film lacking significant scientific accuracy, it is made in a fantasised way and provides a gripping watch!",
                 "sceneDetails": "**Key Scenes:**\n• Urban lava flow dynamics and behavior\n• Volcanic vent formation in city infrastructure\n• Emergency response to volcanic hazards\n\n**Technical Details:**\nWhile the setting is implausible, the film's depiction of lava behavior and volcanic processes provides insight into real volcanic hazards and mitigation strategies."
             }
         },
@@ -151,7 +172,7 @@
             "year": 2015,
             "rating": "78/100",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/yftHosO0eUo",
             "thumbnail": "https://images8.alphacoders.com/606/606830.jpg",
             "geology": {
@@ -170,7 +191,7 @@
             "year": 2008,
             "rating": "3/5 ORE",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/iJkspWwwZLM",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTc0MTY3NjMxNV5BMl5BanBnXkFtZTgwMzI2ODk1MDE@._V1_.jpg",
             "geology": {
@@ -187,9 +208,9 @@
             "id": "free-solo",
             "title": "Free Solo",
             "year": 2018,
-            "rating": "PG-13",
-            "enjoyability": "3",
-            "realism" : "3",
+            "rating": "5/5",
+            "enjoyability": "4/5",
+            "realism": "5/5 ",
             "trailer": "https://www.youtube.com/embed/89H0BHXjkXI",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZsybrQt_6HjOAYxblkdm6E5dJO7K8xHSIq70r3X4CP5HQAteuGhPT8ewzklCO0OWTeBNTA",
             "geology": {
@@ -198,7 +219,7 @@
                     "place": "El Capitan, Yosemite",
                     "country": "USA"
                 },
-                "analysis": "**Geological Accuracy:**\nThe documentary provides an intimate look at Yosemite's geological formations, particularly El Capitan's granitic structure.\n\n**Scientific Elements:**\nThe film reveals key geological processes:\n• Granitic batholith formation\n• Glacial erosion patterns\n• Rock weathering mechanisms\n\n**Educational Value:**\nThe film naturally demonstrates:\n• The strength and durability of granite\n• How climbers interact with geological features\n• The role of geological processes in landscape formation",
+                "analysis": "Want a gripping film that’s going to keep you on the edge of your seat? Look no further than Free Solo, a documentary film following death-defying Alex Honnold’s free solo climb of El Capitan in Yosemite National Park. But if it wasn’t for its composition, it may not have been possible. So, what made El Capitan the perfect free solo climb?\n\nEl Capitan is made up of the coarse, crystalline igneous rock granite that slowly cooled deep within the Earth’s crust. This granite is part of the Sierra Nevada Batholith, a large collection of granite intrusions that formed in the Mesozoic Era 100-200 million years ago. These were a result of the tectonic plates being subducted underneath the North American Plate, which caused the magma to rise and solidify underground. The overlying rock was then subject to erosion and uplift, which exposed these granite formations. During the Pleistocene Epoch, glaciers carved the Yosemite valley, creating sheer cliffs, leaving El Capitan a monolith with its iconic 900m tall vertical face that Honnold decided to climb.\n\nGranite is often the choice of rock when coming to rock type for climbing due to its strength, durability and texture, providing excellent friction for trickier holds. El Capitan has different types of holds, including flakes, cracks and ledges. The cracks may be formed from cooling (cooling joints), tectonic stresses and erosion. These allow for climbing techniques such as jamming and stemming. Honnold also needed to make sure that the temperature was correct for climbing, as different temperatures can cause the monolith to expand or contract, potentially leading to the destabilisation of small flakes. Over time, the granite can become weathered, which smooths out the rock, making the holds harder to grip on to.\n\nWith the film focusing on the human side of the climb, the geological perspective of El Capitan’s formation was critical to the climb, making it one of the hardest free solo routes out there.",
                 "sceneDetails": "**Key Scenes:**\n• Detailed views of El Capitan's granite face\n• Visualization of climbing routes following geological features\n• Evidence of glacial sculpting and erosion\n\n**Technical Details:**\nThe cinematography captures the intricate details of Yosemite's geology, from microscopic handholds to massive geological formations."
             }
         },
@@ -208,7 +229,7 @@
             "year": 1989,
             "rating": "PG-13",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/DKg36LBVgfg",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
             "geology": {
@@ -227,7 +248,7 @@
             "year": 2012,
             "rating": "PG-13",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "3/5",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjA5NTA3NzQ5Nl5BMl5BanBnXkFtZTcwOTYxNjY0OA@@._V1_.jpg",
             "geology": {
                 "features": ["Tsunamis", "Plate tectonics", "Earthquake mechanics"],
@@ -235,7 +256,7 @@
                     "place": "Indian Ocean",
                     "country": "Thailand"
                 },
-                "analysis": "**Geological Accuracy:**\nThe film provides a realistic portrayal of the 2004 Indian Ocean tsunami and its devastating effects.\n\n**Scientific Elements:**\nThe movie demonstrates key geological processes:\n• Submarine earthquake mechanisms\n• Tsunami wave formation and propagation\n• Coastal impact dynamics\n\n**Educational Value:**\nThe film effectively illustrates:\n• The connection between earthquakes and tsunamis\n• The power of geological disasters\n• The importance of understanding natural warning signs",
+                "analysis": "The movie 2012 is based on the Mayan concept that the 21st of December 2012 marks the beginning of a new age, since it is an important date in the Mesoamerican Long Count calendar. The 21st of December 2012 was supposedly the date of forecast astronomical phenomena and alignment of planets. While this date was originally believed to be the start of a spiritual renaissance of sorts, popular media began speculating that the world would end on this date. This movie takes some of the various crazy theories surrounding the idea and turns them into a two and a half hour cgi extravaganza of gargantuan earthquakes, tsunamis and volcanic eruptions. The film naturally prioritizes the visual spectacle over geological accuracy though to what extent is this the case?\n\nThe movie begins in 2009 where our favourite geologist Adrian Helmsley visits supposedly the deepest copper mine in the world. Copper is typically mined open pit unless exceptionally high grade deposits are found, the deepest open pit mine in the world is the Bingham canyon copper mine at 1.2 km in depth. Hence it is unlikely that said east Indian mine is the deepest copper mine in the world and it is even less likely that it would be used for scientific operations requiring exceptionally deep tunnels. The scientific operation in question finds mutated neutrinos which are allegedly responsible for heating up the earth's core like a microwave which led to the events in the movie. Neutrinos are almost massless, neutral particles, not electromagnetic microwaves, generated as a byproduct of nuclear reactions to balance nuclear equations. About 100 trillion neutrinos pass through our bodies every second and do not interact with any particles in our body. Hence by their fundamental nature they cannot heat up the earth's core, which is in fact already heated by its own nuclear decay anyway.\n14 minutes in we see our first example of seismic activity with mini quakes leading to small cracks in roads. Low magnitude earthquakes happen all the time due to faulting, however they also happen as a result of intrusions such as sills and dykes forming before eruptions as can be observed in Iceland for example. 22 minutes in when the protagonists family are in yellowstone liquefaction is mentioned which is a legitimate consequence of earthquakes.\n\nThe earthquake physics is ludicrous, large fissures open very slowly across roads even when there is very little shaking which is rather humorous. This is because earthquakes do not result in deep cracks in the earth's surface, only displacement of plate boundaries by up to several centimeters per year. Notable erroneous earthquake physics include the fissure which split the supermarket, and only the supermarket in half, and of course the extended scene of the Los Angeles earthquake resulting in large blocks of the earth's crust sinking into the ocean. At least los angeles is on a plate boundary, the same cannot be said for inland las vegas which has a large several hundred meter fissure across the centre of the city.\n\nHotspots are areas where the underlying mantle is hotter than average, and if for any reason the entire world somehow becomes a hotspot you would see widespread volcanic activity. This would lead to devastating consequences for the world however not in the same way as shown in the movie. The amount of eruptions over a geologically short period of time will result in huge amounts of ash, greenhouse gas emissions, warming the earth rapidly, and so2 emissions causing acid rain. Mass extinctions are often caused in this way by flood basalts, flood basalts such as the deccan traps and notably the siberian traps at the Permo-Triassic boundary are the result of huge volcanic eruptions. A single flood basalt province may contain hundreds of thousands of cubic kilometers of basalt erupted over less than a million years. Once the magma reaches the surface, it flows rapidly across the landscape, flooding the landscape with pahoehoe lava flows. If this were to happen everywhere it would almost certainly spell the end of the world as we know it. Thankfully this will never happen outside of fiction because the amount of energy required to do this is so impossibly high that no energy source below the earth's surface could produce it.\n\nTsunamis increase in amplitude and decrease in speed significantly in shallower water so the protagonist's father on the cruise had nothing to worry about in actuality. Water obviously cannot form a flat stable surface at the altitude of Everest base camp so nonexistent water must have materialised to flood the earth to this extent.\n\nContinental plates do in fact move however much, much slower than in the movie and the final piece of semi accurate geology is the fact that the magnetic poles have both moved by several degrees and flipped, although in real life this happens on a much longer timescale. This shows that whatever realistic geology can be observed happens at an unrealistic, jumbo scale.",
                 "sceneDetails": "**Key Scenes:**\n• Realistic depiction of tsunami wave behavior\n• Demonstration of water displacement effects\n• Visualization of coastal destruction patterns\n\n**Technical Details:**\nThe film's portrayal of the tsunami provides viewers with an understanding of how submarine earthquakes can trigger devastating ocean waves."
             }
         },
@@ -245,7 +266,7 @@
             "year": 2009,
             "rating": "PG-13",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/sFXGrTng0gQ",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTY0MjEyODQzMF5BMl5BanBnXkFtZTcwMTczMjQ4Mg@@._V1_.jpg",
             "geology": {
@@ -254,7 +275,7 @@
                     "place": "Global",
                     "country": "Multiple"
                 },
-                "analysis": "**Geological Accuracy:**\nWhile highly dramatized, the film touches on concepts of crustal dynamics and tectonic processes.\n\n**Scientific Elements:**\nThe movie incorporates various geological concepts:\n• Crustal plate movement\n• Volcanic activity\n• Global tectonic events\n\n**Educational Value:**\nDespite its exaggerations, the film raises awareness about:\n• Earth's dynamic systems\n• The interconnectedness of geological processes\n• The potential impact of major geological events",
+                "analysis": "The movie 2012 is based on the Mayan concept that the 21st of December 2012 marks the beginning of a new age, since it is an important date in the Mesoamerican Long Count calendar. The 21st of December 2012 was supposedly the date of forecast astronomical phenomena and alignment of planets. While this date was originally believed to be the start of a spiritual renaissance of sorts, popular media began speculating that the world would end on this date. This movie takes some of the various crazy theories surrounding the idea and turns them into a two and a half hour cgi extravaganza of gargantuan earthquakes, tsunamis and volcanic eruptions. The film naturally prioritizes the visual spectacle over geological accuracy though to what extent is this the case?\n\nThe movie begins in 2009 where our favourite geologist Adrian Helmsley visits supposedly the deepest copper mine in the world. Copper is typically mined open pit unless exceptionally high grade deposits are found, the deepest open pit mine in the world is the Bingham canyon copper mine at 1.2 km in depth. Hence it is unlikely that said east Indian mine is the deepest copper mine in the world and it is even less likely that it would be used for scientific operations requiring exceptionally deep tunnels. The scientific operation in question finds mutated neutrinos which are allegedly responsible for heating up the earth's core like a microwave which led to the events in the movie. Neutrinos are almost massless, neutral particles, not electromagnetic microwaves, generated as a byproduct of nuclear reactions to balance nuclear equations. About 100 trillion neutrinos pass through our bodies every second and do not interact with any particles in our body. Hence by their fundamental nature they cannot heat up the earth's core, which is in fact already heated by its own nuclear decay anyway.\n14 minutes in we see our first example of seismic activity with mini quakes leading to small cracks in roads. Low magnitude earthquakes happen all the time due to faulting, however they also happen as a result of intrusions such as sills and dykes forming before eruptions as can be observed in Iceland for example. 22 minutes in when the protagonists family are in yellowstone liquefaction is mentioned which is a legitimate consequence of earthquakes.\n\nThe earthquake physics is ludicrous, large fissures open very slowly across roads even when there is very little shaking which is rather humorous. This is because earthquakes do not result in deep cracks in the earth's surface, only displacement of plate boundaries by up to several centimeters per year. Notable erroneous earthquake physics include the fissure which split the supermarket, and only the supermarket in half, and of course the extended scene of the Los Angeles earthquake resulting in large blocks of the earth's crust sinking into the ocean. At least los angeles is on a plate boundary, the same cannot be said for inland las vegas which has a large several hundred meter fissure across the centre of the city.\n\nHotspots are areas where the underlying mantle is hotter than average, and if for any reason the entire world somehow becomes a hotspot you would see widespread volcanic activity. This would lead to devastating consequences for the world however not in the same way as shown in the movie. The amount of eruptions over a geologically short period of time will result in huge amounts of ash, greenhouse gas emissions, warming the earth rapidly, and so2 emissions causing acid rain. Mass extinctions are often caused in this way by flood basalts, flood basalts such as the deccan traps and notably the siberian traps at the Permo-Triassic boundary are the result of huge volcanic eruptions. A single flood basalt province may contain hundreds of thousands of cubic kilometers of basalt erupted over less than a million years. Once the magma reaches the surface, it flows rapidly across the landscape, flooding the landscape with pahoehoe lava flows. If this were to happen everywhere it would almost certainly spell the end of the world as we know it. Thankfully this will never happen outside of fiction because the amount of energy required to do this is so impossibly high that no energy source below the earth's surface could produce it.\n\nTsunamis increase in amplitude and decrease in speed significantly in shallower water so the protagonist's father on the cruise had nothing to worry about in actuality. Water obviously cannot form a flat stable surface at the altitude of Everest base camp so nonexistent water must have materialised to flood the earth to this extent.\n\nContinental plates do in fact move however much, much slower than in the movie and the final piece of semi accurate geology is the fact that the magnetic poles have both moved by several degrees and flipped, although in real life this happens on a much longer timescale. This shows that whatever realistic geology can be observed happens at an unrealistic, jumbo scale.\n\n",
                 "sceneDetails": "**Key Scenes:**\n• Visualization of crustal displacement\n• Depiction of volcanic eruptions\n• Demonstration of earthquake effects\n\n**Technical Details:**\nWhile scientifically inaccurate in scale and timing, the film illustrates the potential power of Earth's geological processes."
             }
         },
@@ -264,7 +285,7 @@
             "year": 1998,
             "rating": "PG-13",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/9cqDWRIv7Mg",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTUwMTY1YmMtN2U5NC00YjkzLTg0YWQtZmEwNTEzZjdkNzQ2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
             "geology": {
@@ -283,7 +304,7 @@
             "year": 1994,
             "rating": "R",
             "enjoyability": "3/5",
-            "realism" : "3/5",
+            "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/PLl99DlL6b4",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
             "geology": {
@@ -294,6 +315,25 @@
                 },
                 "analysis": "An incredible film based on older prison life. That navigates the experiences of the main character as he is sentenced to life in prison after being wrongly accused of murder. Who then is forced into doing illegal things for a corrupt Warden using his previous occupation as a banker. An incredible film, but what relevance to geology does it have?\n\nWhile the film doesn’t go into significant detail about many geological topics, the main character is avidly interested in Geology. He is seen in one of his first interactions in prison picking up pieces of Mica and Feldspar. As he develops relationships in prison life, he manages to get his hands on a rock hammer through one of the inmates and uses his time to make many sculptures out of different minerals. He then uses this rock hammer to make his great escape after digging for many many years.\n\nOne of the main plot points comes about when the main character (Andy Dufresne) is talking to his closest friend (Red) in prison. He talks about a glassy black volcanic rock beneath a tree that has something hidden underneath. Geologist among you probably recognised immediately that it was going to be a large piece of obsidian, which ends up being true, and giving the film a heartwarming ending which ties together the values of the film such as hope and friendship.\n\nWhile this film doesn’t have much geological content, there are no inaccuracies within the science which makes it far more enjoyable to watch for those with a geological brain.",
                 "sceneDetails": "**Key Scenes:**\n• Depiction of rock weathering\n• Demonstration of material erosion\n• Visualization of tunnel formation through different rock types\n\n**Technical Details:**\nThe film's portrayal of rock excavation provides insight into geological processes and material properties."
+            }
+        },
+        {
+            "id": "godzilla-kong",
+            "title": "Godzilla vs. Kong",
+            "year": 2021,
+            "rating": "PG-13",
+            "enjoyability": "4/5",
+            "realism": "2/5",
+            "trailer": "https://www.youtube.com/embed/odM92ap8_c0",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZmYzMzU4NjctNDI0Mi00MGExLWI3ZDQtYzQzYThmYzc2ZmNjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+            "geology": {
+                "features": ["Hollow Earth theory", "Underground caverns", "Tectonic activity"],
+                "location": {
+                    "place": "Hollow Earth and various locations",
+                    "country": "Global"
+                },
+                "analysis": "Whilst this movie certainly does not have a particularly geological plotline, it does revolve around a dubious theory about the internal structure of the earth. Other questions such as how and if such large creatures can fossilise can also be brought up. So exactly how wrong is geology in these movies.\n\nThe gigantic monsters in this world come from ‘the center of the earth’ presented in the movies as a surface-like environment with impossible gravity and vegetation on both the roof and the floor of a large cavern which bends around the earth's core. Naturally, even a layman could tell you that this is blatantly impossible, but what would happen if whatever magical force was maintaining this status quo was to cease? Depending on just how close to the earth's core the cavern is, different things would happen. In both the inner core and the mantle, the sudden decompression of rock caused by the cavern would cause the rock above and below to instantly melt and expand to fill the gap. Because the melting point of minerals is controlled by both temperature and pressure, the high pressure, up to 360 GPa at the earth's core, means that despite temperature being equally high (5000 degrees C), the rock, or iron in the case of the core, is kept solid. Pressure will decrease as the mantle relaxes very slightly to account for the missing gap, and little would be observed at the surface. The movie also suggests there exists a network of point-to-point tunnels. Even if a short tunnel could be formed due to running water dissolving soluble minerals in the same way a cave is formed, it would certainly not be point-to-point in the way modern man-made tunnels are. Long tunnels would be prone to damage due to faulting, tensile, bending, and shearing forces without engineered mitigation methods.\n\nDinosaurs were the last creatures to grow to remotely comparable sizes as these organisms. In fact, they prove that terrestrial life is possible at gigantic sizes. Whilst Godzilla takes this to another level, some of the smaller titans in the movie are comparable to large dinosaurs. Large terrestrial organisms are the least likely of all to be preserved as they have to be completely buried very quickly. This means that the titans from the movie will struggle to be preserved in any semblance of a complete life assemblage. Dinosaurs are only preserved because a tiny amount of them died in the correct conditions to be preserved, and since they had reasonable populations instead of just a couple being alive at any one time and were around for the entirety of the Mesozoic.",
+                "sceneDetails": "**Key Scenes:**\n• Exploration of massive underground caverns\n• Visualization of theoretical Earth structures\n• Depiction of underground geological formations\n\n**Technical Details:**\nWhile scientifically inaccurate, the film's interpretation of Earth's internal structure provides an imaginative view of theoretical underground worlds."
             }
         }
     ]
