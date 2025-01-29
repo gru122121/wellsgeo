@@ -15,7 +15,7 @@ async function loadMovieDetails() {
         const movie = moviesData.movies.find(m => m.id === movieId);
         const ratings = ratingsData.movies.find(r => r.id === movieId);
         if (!movie) {
-            window.location.href = 'index.html';
+            window.location.href = 'main.html';
             return;
         }
 
@@ -121,13 +121,13 @@ async function loadMovieDetails() {
                 window.history.back();
             } else {
                 // Fallback to index if no history
-                window.location.href = '/index.html';
+                window.location.href = '/main.html';
             }
         });
 
     } catch (error) {
         console.error('Error loading movie details:', error);
-        window.location.href = 'index.html';
+        window.location.href = 'main.html';
     }
 }
 
