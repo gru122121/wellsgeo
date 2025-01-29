@@ -33,14 +33,27 @@
 
         .profile-selection h1 {
             color: #fff;
-            font-size: 3.5vw;
+            font-size: min(3.5vw, 32px);
             margin-bottom: 2rem;
         }
 
         .profiles-container {
             display: flex;
-            gap: 2rem;
+            gap: clamp(1rem, 2vw, 2.5rem);
             margin-top: 2rem;
+            justify-content: center;
+            padding: 0 4%;
+            width: 100%;
+            max-width: 1000px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .profiles-container::-webkit-scrollbar {
+            display: none;
         }
 
         .profile {
@@ -48,6 +61,8 @@
             text-decoration: none;
             transition: transform 0.3s ease;
             display: inline-block;
+            flex: 0 0 auto;
+            width: clamp(100px, 20vw, 150px);
         }
 
         .profile:hover {
@@ -55,24 +70,24 @@
         }
 
         .profile-avatar {
-            width: 120px;
-            height: 120px;
+            width: 100%;
+            aspect-ratio: 1;
             border-radius: 4px;
-            margin-bottom: 0.8rem;
+            margin-bottom: clamp(0.5rem, 1vw, 1rem);
             background-color: #e50914;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 4rem;
+            font-size: clamp(2rem, 4vw, 4rem);
             color: white;
         }
 
         .profile span {
             color: #808080;
-            font-size: 1.2rem;
+            font-size: clamp(0.8rem, 1.5vw, 1.3rem);
             display: block;
             text-align: center;
-            width: 120px;
+            width: 100%;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -130,14 +145,15 @@
             audio.load(); // Ensure the audio is loaded
             
             audio.oncanplaythrough = () => {
-                audio.play().catch(error => {
+                audio.play().then(() => {
+                    // Wait for the audio to finish playing before navigating
+                    setTimeout(() => {
+                        window.location.href = link;
+                    }, 1500); // Increased delay to ensure audio completes
+                }).catch(error => {
                     console.error('Error playing audio:', error);
-                    window.location.href = link; // Navigate even if audio fails
+                    window.location.href = link; // Navigate if audio fails to play
                 });
-                
-                setTimeout(() => {
-                    window.location.href = link;
-                }, 400);
             };
             
             audio.onerror = () => {
