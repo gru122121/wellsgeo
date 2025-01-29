@@ -141,7 +141,11 @@
             event.preventDefault();
             const audio = document.getElementById('netflix-sound');
             const link = event.currentTarget.href;
-            window.location.href = link; // Navigate if audio fails to load
+            
+            audio.load(); // Ensure the audio is loaded
+            
+            audio.oncanplaythrough = () => {
+                window.location.href = link;
             };
             
             audio.onerror = () => {
