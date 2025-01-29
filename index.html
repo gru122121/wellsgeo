@@ -20,11 +20,31 @@
         .logo {
             position: fixed;
             top: 20px;
-            left: 40px;
+            left: 20px;
             color: #e50914;
-            font-size: 2rem;
+            font-size: clamp(1.2rem, 4vw, 2rem);
             font-weight: bold;
             font-family: 'BebasNeue-Regular', sans-serif;
+        }
+
+        .school-name {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            color: #fff;
+            font-size: clamp(1.2rem, 4vw, 1.5rem);
+            font-weight: bold;
+            font-family: 'BebasNeue-Regular', sans-serif;
+            text-align: right;
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                left: 10px;
+            }
+            .school-name {
+                right: 10px;
+            }
         }
 
         .profile-selection {
@@ -63,6 +83,8 @@
             display: inline-block;
             flex: 0 0 auto;
             width: clamp(100px, 20vw, 150px);
+            padding: 10px;
+            margin: -10px;
         }
 
         .profile:hover {
@@ -88,9 +110,11 @@
             display: block;
             text-align: center;
             width: 100%;
-            overflow: hidden;
+            overflow: visible;
             text-overflow: ellipsis;
             white-space: nowrap;
+            padding: 0 5px;
+            margin: 0 -5px;
         }
 
         .profile:hover span {
@@ -110,12 +134,13 @@
 </head>
 <body>
     <div class="logo">GeoFlix</div>
+    <div class="school-name">Wells Cathedral School</div>
     <div class="profile-selection">
         <h1>Who's watching?</h1>
         <div class="profiles-container">
             <a href="team.html" class="profile" onclick="playSound(event)">
                 <div class="profile-avatar">
-                    <img src="https://www.ukbsa.com/wp-content/uploads/2023/04/Wells-Cathedral-School.jpg" alt="Profile Avatar" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+                    <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-dyrp6bw6adbulg5b.jpg" alt="Profile Avatar" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
                 </div>
                 <span>Team</span>
             </a>
