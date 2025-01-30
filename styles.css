@@ -66,6 +66,21 @@ nav {
     font-weight: 500;
 }
 
+.school-name {
+    color: #e5e5e5;
+    font-size: 0.9rem;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .school-name {
+        order: -1;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
 @font-face {
     font-family: 'BebasNeue';
     src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
