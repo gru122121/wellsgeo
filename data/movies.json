@@ -1,34 +1,33 @@
 {
     "categories": [
         {
-            "name": "Natural Hazards",
+            "name": "action",
             "movies": [
                 "dantes-peak",
                 "volcano",
                 "san-andreas",
-                "impossible",
                 "2012",
                 "deep-impact",
-                "deepwater-horizon",
+                "the-core",
+                "journey-center-earth",
                 "godzilla-kong",
                 "austin-powers"
             ]
         },
         {
-            "name": "Earth Science",
+            "name": "interest",
             "movies": [
-                "the-core",
-                "journey-center-earth",
                 "ice-age-drift",
+                "jurassic-park",
                 "shawshank"
             ]
         },
         {
-            "name": "Geological Sites",
+            "name": "real",
             "movies": [
                 "free-solo",
-                "indiana-jones",
-                "jurassic-park"
+                "impossible",
+                "deepwater-horizon"
             ]
         }
     ],
@@ -49,15 +48,15 @@
                     "country": "USA"
                 },
                 "analysis": "Throughout the films, Dr Evil’s plans for world domination are elaborate and absurd schemes. In this film, he tries to extort the government’s money by threatening to drill into the Earth’s core and cause geological damage on a catastrophic level. But is this really achievable?\n\nThe Earth’s core lies approximately 6,370km below the surface with solid layers of rock, mantle and an outer core surrounding it. The deepest borehole ever drilled is 12km in depth (Kola Superdeep Borehole, Russia), which set Dr Evil up for a bit of a tricky start. But let’s put some more factors in. If he were to drill deeper than 12km, then the temperatures and pressures would quickly increase. The Earth’s core can exceed 5,000 °C, which is enough to melt Dr Evil’s homemade contraption, and the pressure would crush it before it got anywhere near the core. And had he thought about the location of the drilling?\n\nIf he drilled near a volcanic hotspot or along a tectonic plate boundary, then he could’ve possibly disrupted magma chambers and increased the likelihood of an eruption. This takes precise planning and targeting, which would’ve probably exceeded the geological knowledge of Dr Evil. If he had a larger drill (one on the scale of fracking or mining), then disturbing a fault line and triggering an earthquake may have been slightly achievable. However, his operation only had a small drill that would’ve been highly unlikely to cause any noticeable seismic events.\n\nTo achieve his goal, a significant amount of energy would’ve been needed. His single villainous empire wouldn’t have been able to generate the amount needed. Even if he had a nuclear-powered drill, then drilling to the core still wouldn’t be possible.\n\nDr Evil is made as an entirely comedic character with no aspect of geology or the Earth, as proven when he describes the magma as being “liquid hot.” However, this movie was made to not be taken seriously and to exaggerate all the elaborate plans from classic spy films. Plus, it’s hard to focus on the geology when it’s comedic sketch after comedic sketch!",
-                "sceneDetails": "**Key Scenes:**\n• Underground lair construction\n• Nuclear warhead placement in volcanic structures\n• Desert facility operations\n\n**Technical Details:**\nThough exaggerated for comedy, the film's underground facilities reference real geological considerations in bunker construction and nuclear testing sites."
+               "sceneDetails": "**Key Scenes:**\n• Underground lair construction\n• Nuclear warhead placement in volcanic structures\n• Desert facility operations\n\n**Technical Details:**\nThough exaggerated for comedy, the film's underground facilities reference real geological considerations in bunker construction and nuclear testing sites."
             }
         },
         {
             "id": "jurassic-park",
             "title": "Jurassic Park",
             "year": 1993,
-            "rating": "PG-13",
-            "enjoyability": "3/5",
+            "rating": "4/5",
+            "enjoyability": "5/5",
             "realism": "3/5",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg",
             "trailer": "https://www.youtube.com/embed/QWBKEmWWL38",
@@ -75,9 +74,9 @@
             "id": "dantes-peak",
             "title": "Dante's Peak",
             "year": 1997,
-            "rating": "85/100",
-            "enjoyability": "2/5",
-            "realism": "1.5/5",
+            "rating": "5/5",
+            "enjoyability": "5/5",
+            "realism": "4/5",
             "trailer": "https://www.youtube.com/embed/O8HNlhVbGzY",
             "thumbnail": "https://images.moviesanywhere.com/043300701040d5a73fc8d7bb2e926144/712f6580-007e-498f-97ce-3d8bd594273c.jpg",
             "geology": {
@@ -94,7 +93,7 @@
             "id": "the-core",
             "title": "The Core",
             "year": 2003,
-            "rating": "75/100",
+            "rating": "3/5",
             "enjoyability": "3/5",
             "realism": "2/5",
             "trailer": "https://www.youtube.com/embed/LVkocdkcmAc",
@@ -113,7 +112,7 @@
             "id": "deepwater-horizon",
             "title": "Deepwater Horizon",
             "year": 2016,
-            "rating": "83/100",
+            "rating": "5/5",
             "enjoyability": "4/5",
             "realism": "5/5",
             "trailer": "https://www.youtube.com/embed/8yASbM8M2vg",
@@ -167,25 +166,6 @@
             }
         },
         {
-            "id": "san-andreas",
-            "title": "San Andreas",
-            "year": 2015,
-            "rating": "78/100",
-            "enjoyability": "3/5",
-            "realism": "3/5",
-            "trailer": "https://www.youtube.com/embed/yftHosO0eUo",
-            "thumbnail": "https://images8.alphacoders.com/606/606830.jpg",
-            "geology": {
-                "features": ["Fault lines", "Seismic activity", "Earthquake mechanics"],
-                "location": {
-                    "place": "San Andreas Fault",
-                    "country": "USA"
-                },
-                "analysis": "**Geological Accuracy:**\nThe film presents real geological concepts about fault systems and seismic activity, though with dramatic exaggeration.\n\n**Scientific Elements:**\nThe movie explores key seismological concepts:\n• Transform fault mechanics\n• Earthquake propagation patterns\n• Seismic wave behavior\n\n**Educational Value:**\nDespite its dramatization, the film effectively illustrates:\n• The power of tectonic forces\n• Earthquake early warning systems\n• The importance of geological monitoring",
-                "sceneDetails": "**Key Scenes:**\n• Visualization of fault line movement\n• Depiction of seismic wave propagation\n• Demonstration of earthquake magnitude effects\n\n**Technical Details:**\nWhile the destruction is exaggerated, the film's portrayal of the San Andreas Fault system helps viewers understand real tectonic processes and hazards."
-            }
-        },
-        {
             "id": "journey-center-earth",
             "title": "Journey to the Center of the Earth",
             "year": 2008,
@@ -224,29 +204,10 @@
             }
         },
         {
-            "id": "indiana-jones",
-            "title": "Indiana Jones and the Last Crusade",
-            "year": 1989,
-            "rating": "PG-13",
-            "enjoyability": "3/5",
-            "realism": "3/5",
-            "trailer": "https://www.youtube.com/embed/DKg36LBVgfg",
-            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
-            "geology": {
-                "features": ["Sandstone formation", "Rock-cut architecture", "Desert geology"],
-                "location": {
-                    "place": "Petra",
-                    "country": "Jordan"
-                },
-                "analysis": "**Geological Accuracy:**\nThe film showcases the remarkable geology of Petra, accurately depicting its sandstone formations and natural erosion patterns.\n\n**Scientific Elements:**\nThe movie highlights important geological features:\n• Sedimentary rock formation processes\n• Desert weathering patterns\n• Ancient riverbed deposits\n\n**Educational Value:**\nThe film effectively demonstrates:\n• How geology influenced ancient architecture\n• Natural erosion processes in desert environments\n• The relationship between geology and human history",
-                "sceneDetails": "**Key Scenes:**\n• Views of Petra's iconic sandstone cliffs\n• Demonstration of rock-cut architectural techniques\n• Evidence of desert weathering processes\n\n**Technical Details:**\nThe film's use of Petra as a backdrop provides viewers with an understanding of how geological processes created the perfect conditions for ancient rock-cut architecture."
-            }
-        },
-        {
             "id": "impossible",
             "title": "The Impossible",
             "year": 2012,
-            "rating": "PG-13",
+            "rating": "3/5",
             "enjoyability": "3/5",
             "realism": "3/5",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjA5NTA3NzQ5Nl5BMl5BanBnXkFtZTcwOTYxNjY0OA@@._V1_.jpg",
@@ -264,7 +225,7 @@
             "id": "2012",
             "title": "2012",
             "year": 2009,
-            "rating": "PG-13",
+            "rating": "3/5",
             "enjoyability": "3/5",
             "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/sFXGrTng0gQ",
@@ -283,7 +244,7 @@
             "id": "deep-impact",
             "title": "Deep Impact",
             "year": 1998,
-            "rating": "PG-13",
+            "rating": "3/5",
             "enjoyability": "3/5",
             "realism": "3/5",
             "trailer": "https://www.youtube.com/embed/9cqDWRIv7Mg",
@@ -294,7 +255,7 @@
                     "place": "Atlantic Ocean",
                     "country": "Global"
                 },
-                "analysis": "**Geological Accuracy:**\nThe film presents a scientifically grounded depiction of comet impact effects on Earth.\n\n**Scientific Elements:**\nThe movie explores several geological concepts:\n• Impact crater formation\n• Mega-tsunami generation\n• Mass extinction events\n\n**Educational Value:**\nThe film effectively demonstrates:\n• The geological consequences of cosmic impacts\n• The formation of impact structures\n• The relationship between impacts and Earth's history",
+                "analysis": "Deep impact is a film about a dramatic asteroid collision with Earth, this leads to massive environmental destruction.\nAlthough the move accuralty represents some aspects of impact cratering, tsunamis and sedentary deposits, it also exaggerates many geological effects for the sake of drama.\n\nACCURACIES:\nThe most scientifically accurate aspect of this film is it’s depiction of impact cratering.\nWhen a large celestial object collides with earth they create massive craters, this is due to the immense kinetic energy the asteroid generates as it travels through space, which is then transferred into its destructive nature upon impact.\nThe initial explosion and after following firestorms within the film align with the real life predictions of such an event.\nThis films portrayal of how the asteroid strike would generate shock waves, intense heat and vast, widespread destruction is definitely one of the more accurate parts of this film.\n\nAnother strength of this film is that it depict tsunamis in a very good manner.\nThe size of the tsunami’s depend on the vastness of the impact created by the celestial object.\nA high-velocity celestial impact can create vast amount of water to be displaced, therefore creating waves that can cover whole ocean basins.\nIn the film a fragment of a comet makes impact on Earth, the fragment lands somewhere within the Atlantic Ocean.\nThis impact causes a massive tsunami that engulfs the coastal cities on the Atlantic shore.\nThis is scientificall plausable as impacts caused by such high-veocility celestial objects can cause vast tsunamis that could potentially reach heights of hundreds of metres.\nThe tsunami’s, of course, reduce in size as they near shorelines, but still would cause vast levels of damage and flooding.\n\nFinally the film has accuratly described the sedimentary deposits left behind the tsunami/asteroid.\nIn real-life events, massive waves transport huge amounts of debris, sands and other material like trees etc.\nThese therefore, once deposited, create distinct layers within the geological record.\nPrevious sedimentary deposits (known as tsunami sediments and impact ejecta) have provided sufficient evidence for past asteroid collisions on Earth.\n\nINACCURACIES:\n\nThis film suuggests that an asteroid that landed in the ocean would create an extinction level event due to the tsunami’s they would generate.\nWhile such waves would cause massive devestation to local coastal cities.\nThe real dangers lie in the threat from it’s atmospheric effects.\nA large asteroid impact would throw enormous amounts of dust and vaporized rock into the atmosphere, this would lead to wide-spread climate disruption.\nThis film downplays this long-term consequence a lot.\n\nFinally, the film exaggerates the tsunami sequence.\nWhile an impact-generated tsunami from an asteroid would be of an enormous size, it would not be formed in a perfect uniform towering wave.\nRather than just one enormous wave, real-world physics and past, smaller scale experiences would suggest it would be more like a series of surging floods.\n\nIn conclusion, Deep Impact portrays many geological effects accuratly, however it is guilty of simplifying the key details for the sake of cinematic impact and entertainment.",
                 "sceneDetails": "**Key Scenes:**\n• Visualization of impact crater formation\n• Demonstration of tsunami generation\n• Depiction of atmospheric effects\n\n**Technical Details:**\nThe film's portrayal of impact effects provides insights into how such events have shaped Earth's geological history."
             }
         },
@@ -302,9 +263,9 @@
             "id": "shawshank",
             "title": "The Shawshank Redemption",
             "year": 1994,
-            "rating": "R",
-            "enjoyability": "3/5",
-            "realism": "3/5",
+            "rating": "5/5",
+            "enjoyability": "5/5",
+            "realism": "4/5",
             "trailer": "https://www.youtube.com/embed/PLl99DlL6b4",
             "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
             "geology": {
@@ -321,7 +282,7 @@
             "id": "godzilla-kong",
             "title": "Godzilla vs. Kong",
             "year": 2021,
-            "rating": "PG-13",
+            "rating": "3/5",
             "enjoyability": "4/5",
             "realism": "2/5",
             "trailer": "https://www.youtube.com/embed/odM92ap8_c0",

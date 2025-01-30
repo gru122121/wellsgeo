@@ -3,17 +3,11 @@ async function loadMovieDetails() {
         const urlParams = new URLSearchParams(window.location.search);
         const movieId = urlParams.get('id');
         
-        const [moviesResponse, ratingsResponse] = await Promise.all([
-            fetch('data/movies.json'),
-            fetch('data/oreratings.json')
-        ]);
-        const [moviesData, ratingsData] = await Promise.all([
-            moviesResponse.json(),
-            ratingsResponse.json()
-        ]);
+        // Only fetch movies.json
+        const moviesResponse = await fetch('data/movies.json');
+        const moviesData = await moviesResponse.json();
         
         const movie = moviesData.movies.find(m => m.id === movieId);
-        const ratings = ratingsData.movies.find(r => r.id === movieId);
         if (!movie) {
             window.location.href = 'main.html';
             return;
@@ -40,20 +34,21 @@ async function loadMovieDetails() {
             window.open(searchUrl, '_blank');
         });
 
-        // Set ORE ratings
-        const overallRating = ratings ? (parseFloat(ratings.realism) + parseFloat(ratings.enjoyability)) / 2 : 0;
+        // Calculate overall rating as average of realism and enjoyability
+        const overallRating = (parseFloat(movie.realism) + parseFloat(movie.enjoyability)) / 2;
         
         function createStarRating(rating) {
-            const fullStars = Math.floor(rating);
+            // Extract number from "X/5" format
+            const ratingValue = parseFloat(rating.split('/')[0]);
             let starsHtml = '<span style="margin-left: 10px;">';
             
             // Add full stars
-            for (let i = 0; i < fullStars; i++) {
+            for (let i = 0; i < ratingValue; i++) {
                 starsHtml += '<i class="fas fa-star star"></i>';
             }
             
             // Add empty stars
-            for (let i = fullStars; i < 5; i++) {
+            for (let i = ratingValue; i < 5; i++) {
                 starsHtml += '<i class="far fa-star star empty"></i>';
             }
             
@@ -61,9 +56,10 @@ async function loadMovieDetails() {
             return starsHtml;
         }
         
-        document.querySelector('.overall-rating').innerHTML = createStarRating(overallRating);
-        document.querySelector('.realism-rating').innerHTML = createStarRating(parseFloat(movie.realism));
-        document.querySelector('.enjoyment-rating').innerHTML = createStarRating(parseFloat(movie.enjoyability));
+        // Set ratings using values directly from movie object
+        document.querySelector('.overall-rating').innerHTML = createStarRating(`${overallRating}/5`);
+        document.querySelector('.realism-rating').innerHTML = createStarRating(movie.realism);
+        document.querySelector('.enjoyment-rating').innerHTML = createStarRating(movie.enjoyability);
 
         // Setup trailer functionality
         const trailerBtn = document.querySelector('.trailer-btn');
