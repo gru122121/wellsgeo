@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: "Bebas Neue"; /* The name you'll use in CSS */
+    src: url("/fonts/BebasNeue-Regular.ttf") format("truetype"); /* Path to your font file */
+  }
+
 
 * {
     margin: 0;
@@ -39,9 +44,11 @@ nav {
 
 .logo {
     color: #e50914;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.1rem;
 }
 
 .nav-links {
@@ -133,6 +140,13 @@ nav {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.featured-team-text {
+    max-width: 1400px;
+    padding: 0 4% 60px;
+    text-align: justify center;
+}
+
+
 .featured-text h1 {
     font-size: 8rem;
     margin-bottom: 20px;
@@ -166,6 +180,10 @@ nav {
     margin-bottom: 20px;
     font-weight: 500;
     padding-left: 15px;
+}
+
+#iceland-films p {
+    margin-left: 15px;
 }
 
 .movie-grid {

@@ -1,171 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GeoFlix - Who's Watching?</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: #141414;
-            font-family: Arial, sans-serif;
-        }
+      @font-face {
+        font-family: "Bebas Neue"; /* The name you'll use in CSS */
+        src: url("/fonts/BebasNeue-Regular.ttf") format("truetype"); /* Path to your font file */
+      }
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #141414;
+        font-family: Arial, sans-serif;
+      }
 
+      .header-login {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        padding: 20px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 1) 10%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+
+      .logo {
+        position: relative;
+        height: 1.6rem;
+        /* color: #e50914;
+        font-size: clamp(1.2rem, 4vw, 2rem);
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        font-family: "Bebas Neue", sans-serif; */
+      }
+
+
+      .school-name {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        color: #ffffff62;
+        font-size: clamp(1rem, 4vw, 1.5rem);
+        font-weight: bold;
+        font-family: "BebasNeue-Regular", sans-serif;
+        text-align: right;
+      }
+
+      @media (max-width: 480px) {
         .logo {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            color: #e50914;
-            font-size: clamp(1.2rem, 4vw, 2rem);
-            font-weight: bold;
-            font-family: 'BebasNeue-Regular', sans-serif;
-        }
+          left: 10px;
+        height: 1.3rem;
 
+        }
         .school-name {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            color: #fff;
-            font-size: clamp(1.2rem, 4vw, 1.5rem);
-            font-weight: bold;
-            font-family: 'BebasNeue-Regular', sans-serif;
-            text-align: right;
+          right: 10px;
         }
+      }
 
-        @media (max-width: 480px) {
-            .logo {
-                left: 10px;
-            }
-            .school-name {
-                right: 10px;
-            }
-        }
+      .profile-selection {
+        text-align: center;
+      }
 
-        .profile-selection {
-            text-align: center;
-        }
+      .profile-selection h1 {
+        color: #fff;
+        font-size: min(5.5vw, 32px);
+        margin-bottom: 2rem;
+      }
 
-        .profile-selection h1 {
-            color: #fff;
-            font-size: min(3.5vw, 32px);
-            margin-bottom: 2rem;
-        }
+      .profiles-container {
+        display: flex;
+        gap: clamp(1rem, 2vw, 2.5rem);
+        margin-top: 2rem;
+        justify-content: center;
+        padding: 4% 4%;
+        width: 100%;
+        max-width: 1000px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
 
-        .profiles-container {
-            display: flex;
-            gap: clamp(1rem, 2vw, 2.5rem);
-            margin-top: 2rem;
-            justify-content: center;
-            padding: 0 4%;
-            width: 100%;
-            max-width: 1000px;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-        }
+      .profiles-container::-webkit-scrollbar {
+        display: none;
+      }
 
-        .profiles-container::-webkit-scrollbar {
-            display: none;
-        }
+      .profile {
+        cursor: pointer;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        flex: 0 0 auto;
+        width: clamp(100px, 20vw, 150px);
+        padding: 10px;
+        margin: -10px;
+      }
 
-        .profile {
-            cursor: pointer;
-            text-decoration: none;
-            transition: transform 0.3s ease;
-            display: inline-block;
-            flex: 0 0 auto;
-            width: clamp(100px, 20vw, 150px);
-            padding: 10px;
-            margin: -10px;
-        }
+      .profile:hover {
+        transform: scale(1.1);
+      }
 
-        .profile:hover {
-            transform: scale(1.1);
-        }
+      .profile-avatar {
+        width: 100%;
+        aspect-ratio: 1;
+        border-radius: 4px;
+        margin-bottom: clamp(0.5rem, 1vw, 1rem);
+        background-color: #e50914;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: clamp(2rem, 4vw, 4rem);
+        color: white;
+      }
 
-        .profile-avatar {
-            width: 100%;
-            aspect-ratio: 1;
-            border-radius: 4px;
-            margin-bottom: clamp(0.5rem, 1vw, 1rem);
-            background-color: #e50914;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: clamp(2rem, 4vw, 4rem);
-            color: white;
-        }
+      .profile span {
+        color: #808080;
+        font-size: clamp(0.8rem, 1.5vw, 1.3rem);
+        display: block;
+        text-align: center;
+        width: 100%;
+        overflow: visible;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
 
-        .profile span {
-            color: #808080;
-            font-size: clamp(0.8rem, 1.5vw, 1.3rem);
-            display: block;
-            text-align: center;
-            width: 100%;
-            overflow: visible;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            padding: 0 5px;
-            margin: 0 -5px;
-        }
+      .profile:hover span {
+        color: #fff;
+      }
 
-        .profile:hover span {
-            color: #fff;
-        }
+      .add-profile {
+        background-color: transparent;
+        border: 1px solid #808080;
+      }
 
-        .add-profile {
-            background-color: transparent;
-            border: 1px solid #808080;
-        }
-
-        .add-profile i {
-            font-size: 4rem;
-            color: #808080;
-        }
+      .add-profile i {
+        font-size: 4rem;
+        color: #808080;
+      }
     </style>
-</head>
-<body>
-    <div class="logo">Geoflix</div>
-    <div class="school-name">Wells Cathedral School</div>
+  </head>
+  <body>
+    <div class="header-login">
+      <img src="./Geoflix_logo.png" class="logo"></img>
+      <div class="school-name">Wells Cathedral School</div>
+    </div>
+
     <div class="profile-selection">
-        <h1>Who's watching?</h1>
-        <div class="profiles-container">
-            <a href="main.html" class="profile" onclick="playSound(event)">
-                <div class="profile-avatar">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnteCs2rONryJBY1S5aBtEnHnvBT_tD1icg&s" alt="Profile Avatar" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
-                </div>
-                <span>WCS</span>
-            </a>
-        </div>
+      <h1>Who's watching?</h1>
+      <div class="profiles-container">
+        <a href="main.html" class="profile" onclick="playSound(event)">
+          <div class="profile-avatar">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnteCs2rONryJBY1S5aBtEnHnvBT_tD1icg&s"
+              alt="Profile Avatar"
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 4px;
+              "
+            />
+          </div>
+          <span>WCS</span>
+        </a>
+      </div>
     </div>
 
     <audio id="netflix-sound" src="audio/netflix-sound.mp3"></audio>
 
     <script>
-        function playSound(event) {
-            event.preventDefault();
-            const audio = document.getElementById('netflix-sound');
-            const link = event.currentTarget.href;
-            
-            audio.load(); // Ensure the audio is loaded
-            
-            audio.oncanplaythrough = () => {
-                window.location.href = link;
-            };
-            
-            audio.onerror = () => {
-                console.error('Error loading audio file');
-                window.location.href = link; // Navigate if audio fails to load
-            };
-        }
+      function playSound(event) {
+        event.preventDefault();
+        const audio = document.getElementById("netflix-sound");
+        const link = event.currentTarget.href;
+
+        audio.load(); // Ensure the audio is loaded
+
+        audio.oncanplaythrough = () => {
+          window.location.href = link;
+        };
+
+        audio.onerror = () => {
+          console.error("Error loading audio file");
+          window.location.href = link; // Navigate if audio fails to load
+        };
+      }
     </script>
-</body>
+  </body>
 </html>

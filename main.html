@@ -1,95 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GeoFlix - Where Movies Meet Geology</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">Geoflix</div>
-            <div class="school-name">Wells Cathedral School</div>
-            <div class="nav-links">
-                <a href="main.html">Home</a>
-                <a href="team.html">Meet The Team</a>
-              
-            </div>
-        </nav>
+      <nav>
+        <div class="logo">Geoflix</div>
+        <div class="school-name">Wells Cathedral School</div>
+        <div class="nav-links">
+          <a href="main.html">Home</a>
+          <a href="team.html">Meet The Team</a>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section id="featured">
-            <div class="featured-content">
-                <div class="featured-text">
-                    <h1>GeoFlix</h1>
-                    <p>Where Geology Meets Cinema</p>
-                    <button class="explore-btn" onclick="scrollToMovies()">
-                        <i class="fas fa-chevron-down"></i> Explore Movies
-                    </button>
-                </div>
-            </div>
-        </section>
+      <section id="featured">
+        <div class="featured-content">
+          <div class="featured-text">
+            <h1>GeoFlix</h1>
+            <p>Where Geology Meets Cinema</p>
+            <button class="explore-btn" onclick="scrollToMovies()">
+              <i class="fas fa-chevron-down"></i> Explore Movies
+            </button>
+          </div>
+        </div>
+      </section>
 
-        <section class="movies-section">
-            <div class="category-section" id="action">
-                <h2 class="row-title">Geology action & adventure</h2>
-                <div class="movie-grid"></div>
-            </div>
+      <section class="movies-section">
+        <div class="category-section" id="action">
+          <h2 class="row-title">Geology action & adventure</h2>
+          <div class="movie-grid"></div>
+        </div>
 
-            <div class="category-section" id="interest">
-                <h2 class="row-title">Geological interest / Geological setting</h2>
-                <div class="movie-grid"></div>
-            </div>
+        <div class="category-section" id="interest">
+          <h2 class="row-title">Geological interest / Geological setting</h2>
+          <div class="movie-grid"></div>
+        </div>
 
-            <div class="category-section" id="real">
-                <h2 class="row-title">Based on real events</h2>
-                <div class="movie-grid"></div>
-            </div>
+        <div class="category-section" id="real">
+          <h2 class="row-title">Based on real events</h2>
+          <div class="movie-grid"></div>
+        </div>
 
-            <div class="category-section" id="iceland-films">
-                <h2 class="row-title">Filmed in Iceland</h2> Wells Cathedral School organsies geological field trips to Iceland biennially. Iceland is a hub of significant geological activity, these is a small selection of films & series, filmed within Iceland.
-                <div class="movie-grid"></div>
-            </div>
-        </section>
+        <div class="category-section" id="iceland-films">
+          <h2 class="row-title">Filmed in Iceland</h2>
+          <p>
+          Wells Cathedral School organsies geological field trips to Iceland
+          biennially. Iceland is a hub of significant geological activity, these
+          is a small selection of films & series, filmed within Iceland.
+        </p>
+          <div class="movie-grid"></div>
+        </div>
+      </section>
     </main>
 
     <template id="movie-modal-template">
-        <div class="movie-modal">
-            <div class="modal-content">
-                <button class="close-btn">
-                    <i class="fas fa-times"></i>
-                </button>
-                <div class="modal-banner">
-                    <div class="banner-content">
-                        <h2></h2>
-                        <div class="meta">
-                            <span class="year"></span>
-                            <span class="rating"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-info">
-                    <div class="geology-section">
-                        <h3>Geological Features</h3>
-                        <ul class="features-list"></ul>
-                    </div>
-                    <div class="location-section">
-                        <h3>Filming Location</h3>
-                        <p class="location-info"></p>
-                    </div>
-                    <div class="analysis-section">
-                        <h3>Geological Analysis</h3>
-                        <p class="analysis"></p>
-                        <p class="scene-details"></p>
-                    </div>
-                </div>
+      <div class="movie-modal">
+        <div class="modal-content">
+          <button class="close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+          <div class="modal-banner">
+            <div class="banner-content">
+              <h2></h2>
+              <div class="meta">
+                <span class="year"></span>
+                <span class="rating"></span>
+              </div>
             </div>
+          </div>
+          <div class="modal-info">
+            <div class="geology-section">
+              <h3>Geological Features</h3>
+              <ul class="features-list"></ul>
+            </div>
+            <div class="location-section">
+              <h3>Filming Location</h3>
+              <p class="location-info"></p>
+            </div>
+            <div class="analysis-section">
+              <h3>Geological Analysis</h3>
+              <p class="analysis"></p>
+              <p class="scene-details"></p>
+            </div>
+          </div>
         </div>
+      </div>
     </template>
 
     <script type="module" src="script.js"></script>
-</body>
+  </body>
 </html>
